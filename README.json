@@ -1,0 +1,3182 @@
+{
+  "items": [
+    {
+      "description": "A curated list of Wayland resources. Please investigate these projects on your own before fully committing to them!\nThis repository is a hard fork of natpen/awesome-wayland since it was archived on Oct. 17, 2023.\nThere are no current plans to apply to the project for inclusion.",
+      "items": [],
+      "title": ""
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "SCOPE"
+    },
+    {
+      "description": "These are language-specific bindings for use with Wayland development.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "pywayland",
+          "description": "A wrapper to the libwayland library",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T02:19:49Z",
+            "owner": "flacjacket",
+            "repo": "pywayland",
+            "stars": 102
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "odin-wayland",
+          "description": "Bindings for creating Wayland clients",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Odin",
+            "last_commit": "2026-07-25T23:39:06Z",
+            "owner": "yasinkaraaslan",
+            "repo": "odin-wayland",
+            "stars": 45
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wlroots4j",
+          "description": "Bindings for wlroots",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Kotlin",
+            "last_commit": "2026-08-03T13:17:44Z",
+            "owner": "klozovin",
+            "repo": "nylon",
+            "stars": 5
+          }
+        }
+      ],
+      "title": "BINDINGS"
+    },
+    {
+      "description": "No Wayland-specific requirements, so you can use your Xorg solution of choice to control screen brightness, like brightnessctl, brillo, or just directly manipulate .",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "wluma",
+          "description": "A tool for wlroots-based compositors that automatically adjust screen brightness based on screen contents and ambient light",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-12T08:32:48Z",
+            "owner": "max-baz",
+            "repo": "wluma",
+            "stars": 933
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Clight",
+          "description": "Day/night gamma adjustments for Wayland compositors supporting ; automatic screen backlight calibration to match ambient brightness using either webcam or ambient light sensor devices; screen dimming",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-03-04T09:47:52Z",
+            "owner": "FedeDP",
+            "repo": "Clight",
+            "stars": 792
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Luminance",
+          "description": "A simple GTK application to control brightness of displays including external displays supporting DDC/CI",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-09T20:04:49Z",
+            "owner": "sidevesh",
+            "repo": "Luminance",
+            "stars": 177
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wl-gammactl",
+          "description": "A GTK application to set contrast, brightness, and gamma using the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-08-05T18:22:25Z",
+            "owner": "mischw",
+            "repo": "wl-gammactl",
+            "stars": 65
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "yabd",
+          "description": "A simple brightness daemon compatible with Wayland compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-31T17:26:26Z",
+            "owner": "tbrugere",
+            "repo": "yabd",
+            "stars": 8
+          }
+        }
+      ],
+      "title": "BRIGHTNESS CONTROL"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "wl-clipboard",
+          "description": "Command-line copy/paste utilities for Wayland",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-06T08:56:10Z",
+            "owner": "bugaevc",
+            "repo": "wl-clipboard",
+            "stars": 2400
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "cliphist",
+          "description": "A clipboard history manager for Wayland",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-06-08T11:45:44Z",
+            "owner": "sentriz",
+            "repo": "cliphist",
+            "stars": 1522
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "clapboard",
+          "description": "A clipboard manager with support for images and saved entries",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2025-10-06T16:57:05Z",
+            "owner": "bjesus",
+            "repo": "clapboard",
+            "stars": 82
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wayclip",
+          "description": "A Wayland clipboard utility implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-09-22T18:43:15Z",
+            "owner": "noocsharp",
+            "repo": "wayclip",
+            "stars": 32
+          }
+        }
+      ],
+      "title": "CLIPBOARD MANAGERS"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Hyprland",
+          "description": "A dynamic tiling Wayland compositor that doesn't sacrifice on its looks",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-12T18:57:59Z",
+            "owner": "hyprwm",
+            "repo": "Hyprland",
+            "stars": 37848
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "niri",
+          "description": "A Smithay-based scrollable tiling Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T03:29:55Z",
+            "owner": "niri-wm",
+            "repo": "niri",
+            "stars": 26856
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sway",
+          "description": "An i3-compatible Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-31T11:47:08Z",
+            "owner": "swaywm",
+            "repo": "sway",
+            "stars": 17226
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gamescope",
+          "description": "A wlroots-based Wayland compositor designed for SteamOS",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-13T00:08:29Z",
+            "owner": "ValveSoftware",
+            "repo": "gamescope",
+            "stars": 4983
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mangowm",
+          "description": "A dwl-inspired Wayland compositor with lightweight animations and customizable layouts",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-13T02:29:20Z",
+            "owner": "mangowm",
+            "repo": "mango",
+            "stars": 3459
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Wayfire",
+          "description": "A 3D wlroots-based Wayland compositor inspired by Compiz",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-11T23:07:34Z",
+            "owner": "WayfireWM",
+            "repo": "wayfire",
+            "stars": 3035
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "labwc",
+          "description": "A wlroots-based stacking compositor for Wayland, inspired by openbox",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-10T20:46:51Z",
+            "owner": "labwc",
+            "repo": "labwc",
+            "stars": 2716
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SwayFX",
+          "description": "Sway, but with eye candy",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-11T15:42:01Z",
+            "owner": "wlrfx",
+            "repo": "swayfx",
+            "stars": 2327
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Cage",
+          "description": "A Wayland compositor that runs a single application in maximized mode, particularly suitable for kiosk applications",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-20T12:58:29Z",
+            "owner": "cage-kiosk",
+            "repo": "cage",
+            "stars": 2005
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Greenfield",
+          "description": "An HTML5 Wayland compositor that runs directly in the browser",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2025-11-02T20:06:46Z",
+            "owner": "udevbe",
+            "repo": "greenfield",
+            "stars": 1265
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "cosmic-comp",
+          "description": "A Smithay-based Wayland compositor designed for the COSMIC desktop environment",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-12T17:24:26Z",
+            "owner": "pop-os",
+            "repo": "cosmic-comp",
+            "stars": 809
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "miracle-wm",
+          "description": "A Mir-based tiling Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-12T12:57:42Z",
+            "owner": "miracle-wm-org",
+            "repo": "miracle-wm",
+            "stars": 791
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kiwmi",
+          "description": "A fully programmable Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-08-14T16:28:17Z",
+            "owner": "buffet",
+            "repo": "kiwmi",
+            "stars": 762
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Jay",
+          "description": "A tiling Wayland compositor inspired by i3wm",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-12T20:03:52Z",
+            "owner": "mahkoh",
+            "repo": "jay",
+            "stars": 695
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pinnacle",
+          "description": "A Smithay-based Wayland compositor inspired by AwesomeWM",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-06-27T21:59:05Z",
+            "owner": "pinnacle-comp",
+            "repo": "pinnacle",
+            "stars": 626
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "scroll",
+          "description": "A wlroots-based scrollable Wayland compositor forked from sway with a layout similar to PaperWM and niri",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-12T17:51:07Z",
+            "owner": "dawsers",
+            "repo": "scroll",
+            "stars": 576
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Waybox",
+          "description": "An openbox clone on Wayland",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-01-03T03:20:51Z",
+            "owner": "wizbright",
+            "repo": "waybox",
+            "stars": 536
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Vivarium",
+          "description": "A dynamic tiling Wayland compositor using wlroots, with desktop semantics inspired by xmonad",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-09-22T09:05:56Z",
+            "owner": "inclement",
+            "repo": "vivarium",
+            "stars": 424
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wlmaker",
+          "description": "A Wayland compositor inspired by Window Maker",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-11T19:05:48Z",
+            "owner": "phkaeser",
+            "repo": "wlmaker",
+            "stars": 419
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mahogany",
+          "description": "A StumpWM-like Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Common Lisp",
+            "last_commit": "2026-08-11T19:06:45Z",
+            "owner": "stumpwm",
+            "repo": "mahogany",
+            "stars": 381
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Cagebreak",
+          "description": "A Wayland tiling compositor inspired by Ratpoison",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-06-13T13:53:43Z",
+            "owner": "project-repo",
+            "repo": "cagebreak",
+            "stars": 374
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "fht-compositor",
+          "description": "A dynamic tiling Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-11T15:56:32Z",
+            "owner": "nferhat",
+            "repo": "fht-compositor",
+            "stars": 274
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Liri Shell",
+          "description": "A convergent shell for desktops, phones, and tablets",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-02-11T14:16:13Z",
+            "owner": "lirios",
+            "repo": "shell",
+            "stars": 248
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "way-shell",
+          "description": "A desktop shell based on GTK 4 for wlroots-based Wayland compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-02-21T17:12:19Z",
+            "owner": "ldelossa",
+            "repo": "way-shell",
+            "stars": 196
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CwC",
+          "description": "A highly configurable wlroots-based tiling window manager, inspired by AwesomeWM",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-06T19:42:39Z",
+            "owner": "Cudiph",
+            "repo": "cwcwm",
+            "stars": 181
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wayward",
+          "description": "A lightweight desktop shell compatible with Weston",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-20T16:18:28Z",
+            "owner": "varmd",
+            "repo": "wayward",
+            "stars": 124
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Miriway",
+          "description": "A Mir-based Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-11T10:35:19Z",
+            "owner": "Miriway",
+            "repo": "Miriway",
+            "stars": 105
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "treeland",
+          "description": "A wlroots-based Wayland compositor also based on Qt Quick",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-12T10:16:12Z",
+            "owner": "linuxdeepin",
+            "repo": "treeland",
+            "stars": 74
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Nyctal",
+          "description": "A tiny, minimal-dependency Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-11-24T20:34:19Z",
+            "owner": "s-rah",
+            "repo": "nyctal",
+            "stars": 55
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "foxwhale",
+          "description": "A tiling Wayland compositor based on wlroots",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Zig",
+            "last_commit": "2024-10-20T16:01:54Z",
+            "owner": "malcolmstill",
+            "repo": "foxwhale",
+            "stars": 42
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gogh",
+          "description": "A lightweight Wayland compositor using Louvre",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-05-01T14:27:39Z",
+            "owner": "xTrayambak",
+            "repo": "gogh",
+            "stars": 39
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LaikaWM",
+          "description": "A lightweight compositor for Wayland inspired by IceWM and Fluxbox",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2020-10-01T14:34:19Z",
+            "owner": "ianmartinez",
+            "repo": "laikawm",
+            "stars": 36
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kawa",
+          "description": "A wlroots-based Wayland compositor inspired by Plan 9's Rio",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-02-13T03:31:45Z",
+            "owner": "DeedleFake",
+            "repo": "kawa",
+            "stars": 34
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tinywl+",
+          "description": "A stacking Wayland compositor based on tinywl and a great starting place for compositor development",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-04-10T09:53:42Z",
+            "owner": "keshto",
+            "repo": "tinywl_plus",
+            "stars": 32
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Magpie v1",
+          "description": "A wlroots-based Wayland compositor designed for the Budgie desktop environment",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-03-25T19:04:28Z",
+            "owner": "BuddiesOfBudgie",
+            "repo": "magpie",
+            "stars": 27
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "doors",
+          "description": "A Wayland compositor with floating, tiling, and scrolling layouts, inspired by bspwm",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-11T18:21:00Z",
+            "owner": "dy-tea",
+            "repo": "doors",
+            "stars": 24
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Woodland",
+          "description": "A minimal and lightweight wlroots-based stacking compositor, inspired by Wayfire and TinyWL",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-06-12T07:26:22Z",
+            "owner": "DiogenesN",
+            "repo": "woodland",
+            "stars": 24
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Hopalong",
+          "description": "A simple Wayland compositor with a feature set comparable to XFWM",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2022-11-13T20:24:53Z",
+            "owner": "iridescent-desktop",
+            "repo": "hopalong",
+            "stars": 22
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pudu",
+          "description": "A minimal tiling Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-09T21:11:17Z",
+            "owner": "vodkanull",
+            "repo": "pudu",
+            "stars": 21
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "turtile",
+          "description": "A simple and customizable wlroots-based tiling compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-11-29T10:36:44Z",
+            "owner": "migueldeoleiros",
+            "repo": "turtile",
+            "stars": 15
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wless",
+          "description": "A wlroots-based window-less Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-11-09T16:03:43Z",
+            "owner": "qaqland",
+            "repo": "wless",
+            "stars": 13
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "fluxland",
+          "description": "A lightweight Wayland compositor inspired by Fluxbox",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-03-04T00:22:04Z",
+            "owner": "ecliptik",
+            "repo": "fluxland",
+            "stars": 12
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Mezzaluna",
+          "description": "A minimal wlroots-based Wayland compositor configured using Lua",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Zig",
+            "last_commit": "2026-08-12T03:15:50Z",
+            "owner": "MezzalunaWM",
+            "repo": "Mezzaluna",
+            "stars": 11
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LabFyre",
+          "description": "A wlroots-based modular stacking and tiling Wayland compositor, forked from labwc",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-03-05T22:07:42Z",
+            "owner": "FyreX-opensource-design",
+            "repo": "labFyre",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "vwl",
+          "description": "A simple wlroots-based Wayland compositor originally forked from dwl",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-04-15T13:49:13Z",
+            "owner": "wegel",
+            "repo": "vwl",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "vwm",
+          "description": "A wlroots-based Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "V",
+            "last_commit": "2026-01-01T16:57:38Z",
+            "owner": "dy-tea",
+            "repo": "vwm",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nylon-compositor",
+          "description": "A minimal wlroots-based Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Kotlin",
+            "last_commit": "2026-08-03T13:17:44Z",
+            "owner": "klozovin",
+            "repo": "nylon",
+            "stars": 5
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tiley",
+          "description": "A customizable tiling Wayland compositor based on Louvre",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2025-09-11T09:51:53Z",
+            "owner": "creamIcec",
+            "repo": "tiley",
+            "stars": 5
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "stagen",
+          "description": "An experimental wlroots-based Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-01-24T10:29:01Z",
+            "owner": "lidgnulinux",
+            "repo": "stagen",
+            "stars": 4
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Gabbia",
+          "description": "A Wayland compositor inspired by Cage that runs a single application in maximized mode, particularly suitable for kiosk applications",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-03-13T06:49:00Z",
+            "owner": "heuer",
+            "repo": "gabbia",
+            "stars": 2
+          }
+        }
+      ],
+      "title": "COMPOSITORS"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "nwg-displays",
+          "description": "An output management utility for sway and Hyprland, inspired by wdisplays and wlay",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-01T12:12:00Z",
+            "owner": "nwg-piotr",
+            "repo": "nwg-displays",
+            "stars": 1072
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Wallutils",
+          "description": "A set of utilities to handle monitors, resolutions, wallpapers, and timed wallpapers",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-06-04T20:47:47Z",
+            "owner": "xyproto",
+            "repo": "wallutils",
+            "stars": 522
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wdisplays",
+          "description": "A GUI application for configuring displays in wlroots-based compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-07-25T11:45:17Z",
+            "owner": "artizirk",
+            "repo": "wdisplays",
+            "stars": 283
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wlay",
+          "description": "Graphical output management for Wayland",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-07-02T21:56:41Z",
+            "owner": "atx",
+            "repo": "wlay",
+            "stars": 123
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wayland-displays",
+          "description": "A GUI and CLI tool for managing display outputs on wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-10T08:02:22Z",
+            "owner": "heyzec",
+            "repo": "wayland-displays",
+            "stars": 18
+          }
+        }
+      ],
+      "title": "DISPLAY CONFIGURATION"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "walker",
+          "description": "A GTK-based Wayland-native application runner",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-23T23:34:24Z",
+            "owner": "abenz1267",
+            "repo": "walker",
+            "stars": 2977
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "bemenu",
+          "description": "A dynamic menu library and client program inspired by dmenu",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-08-29T08:06:03Z",
+            "owner": "Cloudef",
+            "repo": "bemenu",
+            "stars": 1484
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tofi",
+          "description": "A dynamic menu replacement for dmenu or rofi for wlroots-based Wayland compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-12-30T15:19:27Z",
+            "owner": "philj56",
+            "repo": "tofi",
+            "stars": 1391
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Anyrun",
+          "description": "A GTK-based Wayland-native launcher, customizable via CSS",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-06-09T14:22:59Z",
+            "owner": "anyrun-org",
+            "repo": "anyrun",
+            "stars": 1286
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Hexecute",
+          "description": "A gesture-based launcher for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-06-25T16:35:43Z",
+            "owner": "m31-galaxy",
+            "repo": "Hexecute",
+            "stars": 691
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sirula",
+          "description": "A simple application launcher for Wayland",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-05-04T10:45:45Z",
+            "owner": "DorianRudolph",
+            "repo": "sirula",
+            "stars": 560
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kickoff",
+          "description": "A wlroots-based application launcher",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-11T21:56:24Z",
+            "owner": "j0ru",
+            "repo": "kickoff",
+            "stars": 480
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "yofi",
+          "description": "A minimalistic menu for Wayland-based compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-04-17T00:32:31Z",
+            "owner": "l4l",
+            "repo": "yofi",
+            "stars": 438
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nwg-launchers",
+          "description": "A GTK-based application grid launcher, button bar, and dmenu for Sway with a best effort for other Wayland environments",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-02-06T15:28:19Z",
+            "owner": "nwg-piotr",
+            "repo": "nwg-launchers",
+            "stars": 426
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nwg-drawer",
+          "description": "An application launcher for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-03-24T01:28:34Z",
+            "owner": "nwg-piotr",
+            "repo": "nwg-drawer",
+            "stars": 421
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dmenu-wayland",
+          "description": "A wlroots-based dynamic menu for Wayland",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-12-22T12:14:31Z",
+            "owner": "nyyManni",
+            "repo": "dmenu-wayland",
+            "stars": 215
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wldash",
+          "description": "A dashboard, launcher, or control panel for Wayland, using the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2025-05-08T10:59:41Z",
+            "owner": "kennylevinsen",
+            "repo": "wldash",
+            "stars": 204
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sysmenu",
+          "description": "A simple program launcher for wlroots-based Wayland compositors, implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-05-14T00:20:06Z",
+            "owner": "System64fumo",
+            "repo": "sysmenu",
+            "stars": 121
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nwg-menu",
+          "description": "A simple menu implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-06-06T00:20:14Z",
+            "owner": "nwg-piotr",
+            "repo": "nwg-menu",
+            "stars": 86
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mounch",
+          "description": "A simple wofi/rofi launcher configured via YAML",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-22T09:08:23Z",
+            "owner": "chmouel",
+            "repo": "mounch",
+            "stars": 58
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Mauncher",
+          "description": "A GTK-based alternative to dmenu for Wayland which supports display scaling",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2021-11-19T01:02:58Z",
+            "owner": "mortie",
+            "repo": "mauncher",
+            "stars": 42
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "basket",
+          "description": "A minimal application launcher for Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Nim",
+            "last_commit": "2024-12-04T10:14:04Z",
+            "owner": "xTrayambak",
+            "repo": "basket",
+            "stars": 17
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "lawnch",
+          "description": "A lightweight extensible launcher for Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-03-25T07:44:15Z",
+            "owner": "hoppxi",
+            "repo": "lawnch",
+            "stars": 13
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "diowapplauncher",
+          "description": "A simple application launcher for Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-12-02T12:30:56Z",
+            "owner": "DiogenesN",
+            "repo": "diowapplauncher",
+            "stars": 3
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "diowmenu",
+          "description": "A simple quick launch menu for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-09-07T08:52:16Z",
+            "owner": "DiogenesN",
+            "repo": "diowmenu",
+            "stars": 3
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "waylauncher",
+          "description": "A GTK-based application launcher implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2024-08-12T19:16:05Z",
+            "owner": "tomipkoskinen",
+            "repo": "waylauncher",
+            "stars": 3
+          }
+        }
+      ],
+      "title": "LAUNCHERS"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "smithay",
+          "description": "A compositor library for Wayland",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-12T21:50:41Z",
+            "owner": "Smithay",
+            "repo": "smithay",
+            "stars": 3165
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Mir",
+          "description": "A set of libraries for building Wayland-based shells",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-12T18:48:25Z",
+            "owner": "canonical",
+            "repo": "mir",
+            "stars": 777
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "swc",
+          "description": "A small Wayland compositor implemented as a library",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-03-26T00:19:54Z",
+            "owner": "michaelforney",
+            "repo": "swc",
+            "stars": 754
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Louvre",
+          "description": "A library designed for building Wayland compositors in C++",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-07-20T19:33:04Z",
+            "owner": "CuarzoSoftware",
+            "repo": "Louvre",
+            "stars": 681
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "client-toolkit",
+          "description": "A toolkit for writing Wayland clients in Rust",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-29T10:30:11Z",
+            "owner": "Smithay",
+            "repo": "client-toolkit",
+            "stars": 433
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gtk-layer-shell",
+          "description": "A library to create panels and other desktop components for Wayland using GTK 3 and the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-25T20:38:03Z",
+            "owner": "wmww",
+            "repo": "gtk-layer-shell",
+            "stars": 384
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gtk4-layer-shell",
+          "description": "A library to create panels and other desktop components for Wayland using GTK 4 and the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-12T15:57:38Z",
+            "owner": "wmww",
+            "repo": "gtk4-layer-shell",
+            "stars": 329
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wld",
+          "description": "A drawing library that targets Wayland",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-11T22:00:53Z",
+            "owner": "michaelforney",
+            "repo": "wld",
+            "stars": 115
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ocaml-wayland",
+          "description": "An implementation of the Wayland protocol in OCaml",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "OCaml",
+            "last_commit": "2026-07-08T13:21:08Z",
+            "owner": "talex5",
+            "repo": "ocaml-wayland",
+            "stars": 93
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "waylib",
+          "description": "A Wayland compositor development library based on wlroots and Qt Quick",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-11T23:00:40Z",
+            "owner": "vioken",
+            "repo": "waylib",
+            "stars": 56
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "layer-shell-qt",
+          "description": "A Qt-based library to allow applications to use the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-11T16:45:11Z",
+            "owner": "KDE",
+            "repo": "layer-shell-qt",
+            "stars": 53
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Swingby",
+          "description": "A small GUI library for Wayland client programming",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-12T21:50:16Z",
+            "owner": "aspschn",
+            "repo": "swingby",
+            "stars": 46
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "guile-wayland",
+          "description": "A library that provides access to the Wayland protocol for applications written in GNU Guile Scheme",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Scheme",
+            "last_commit": "2026-01-09T11:17:54Z",
+            "owner": "guile-wayland",
+            "repo": "guile-wayland",
+            "stars": 20
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "way-z",
+          "description": "A client library and widget toolkit for wlroots-based Wayland applications written in Zig",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Zig",
+            "last_commit": "2026-03-13T17:38:34Z",
+            "owner": "psnszsn",
+            "repo": "way-z",
+            "stars": 17
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Wrapland",
+          "description": "A Qt-based wrapper library for the libwayland client and server APIs",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-10-09T12:21:47Z",
+            "owner": "winft",
+            "repo": "wrapland",
+            "stars": 12
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "glace",
+          "description": "A GTK-based library that aids in the management of Wayland clients such as docks and desktop widgets",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-06-16T16:07:28Z",
+            "owner": "Fabric-Development",
+            "repo": "glace",
+            "stars": 9
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wayland-dart",
+          "description": "A Dart implementation of the Wayland client protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Dart",
+            "last_commit": "2025-05-17T15:20:09Z",
+            "owner": "kingwill101",
+            "repo": "wayland-dart",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wleaf",
+          "description": "A C23 abstraction library for writing Wayland clients",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-02-05T11:51:48Z",
+            "owner": "markbolhuis",
+            "repo": "wleaf",
+            "stars": 3
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "shoyu",
+          "description": "A framework for wlroots-based, GTK-based Wayland implementations",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-01-02T17:23:07Z",
+            "owner": "Midstall",
+            "repo": "shoyu",
+            "stars": 0
+          }
+        }
+      ],
+      "title": "LIBRARIES"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "dunst",
+          "description": "A highly configurable and lightweight notification daemon",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-11T16:52:53Z",
+            "owner": "dunst-project",
+            "repo": "dunst",
+            "stars": 5567
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mako",
+          "description": "A lightweight notification daemon for Wayland implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-06-30T17:52:58Z",
+            "owner": "emersion",
+            "repo": "mako",
+            "stars": 3220
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SwayNotificationCenter",
+          "description": "A simple notification daemon with a GTK GUI for notifications and the control center implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Vala",
+            "last_commit": "2026-06-25T15:18:34Z",
+            "owner": "ErikReider",
+            "repo": "SwayNotificationCenter",
+            "stars": 2556
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SwayOSD",
+          "description": "A GTK-based OSD window for common actions like volume and Caps Lock",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-06-22T20:40:01Z",
+            "owner": "ErikReider",
+            "repo": "SwayOSD",
+            "stars": 1291
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Avizo",
+          "description": "A simple notification daemon, mainly intended to be used for multimedia keys",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Vala",
+            "last_commit": "2025-10-08T08:09:29Z",
+            "owner": "heyjuvi",
+            "repo": "avizo",
+            "stars": 617
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "histui",
+          "description": "A themeable notification daemon with TUI and CLI options for Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-12T22:27:45Z",
+            "owner": "jmylchreest",
+            "repo": "histui",
+            "stars": 20
+          }
+        }
+      ],
+      "title": "NOTIFICATIONS"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "wvkbd",
+          "description": "An on-screen keyboard for wlroots-based compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-24T21:16:31Z",
+            "owner": "jjsullivan5196",
+            "repo": "wvkbd",
+            "stars": 454
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wkeys",
+          "description": "An on-screen keyboard featuring a configurable layout and style for Wayland compositors supporting the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-02-16T13:06:36Z",
+            "owner": "ptazithos",
+            "repo": "wkeys",
+            "stars": 42
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wf-osk",
+          "description": "A very, very basic on-screen keyboard using gtkmm and the and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-03-25T12:20:02Z",
+            "owner": "WayfireWM",
+            "repo": "wf-osk",
+            "stars": 32
+          }
+        }
+      ],
+      "title": "ON-SCREEN KEYBOARDS"
+    },
+    {
+      "description": "These are mainly for developers looking for example implementations.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "vkwayland",
+          "description": "A reference application for Vulkan and Wayland",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Zig",
+            "last_commit": "2026-06-06T07:18:04Z",
+            "owner": "kdchambers",
+            "repo": "vkwayland",
+            "stars": 52
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wayland-py",
+          "description": "A pure Python implementation of a Wayland client",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-01-19T19:55:01Z",
+            "owner": "aslpavel",
+            "repo": "wayland-py",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "go-wayland",
+          "description": "A basic implementation of the Wayland protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-08-21T19:42:15Z",
+            "owner": "MatthiasKunnen",
+            "repo": "go-wayland",
+            "stars": 5
+          }
+        }
+      ],
+      "title": "REFERENCE APPLICATIONS"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "hyprlock",
+          "description": "A multi-threaded and GPU-accelerated screen locking utility for wlroots-based Wayland compositors implementing the and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-11T16:23:06Z",
+            "owner": "hyprwm",
+            "repo": "hyprlock",
+            "stars": 1630
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "swaylock",
+          "description": "A screen locking utility for Wayland which implements the protocol protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-09T15:59:31Z",
+            "owner": "swaywm",
+            "repo": "swaylock",
+            "stars": 1211
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "swaylock-effects",
+          "description": "A fork of swaylock which adds, built-in screenshots, image manipulation, and various other effects like blurring",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-11-28T20:49:18Z",
+            "owner": "mortie",
+            "repo": "swaylock-effects",
+            "stars": 861
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "swayidle",
+          "description": "An idle management daemon for Wayland which implements the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-11-11T14:44:34Z",
+            "owner": "swaywm",
+            "repo": "swayidle",
+            "stars": 754
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "hypridle",
+          "description": "A wlroots-based idle management daemon implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-11T16:29:38Z",
+            "owner": "hyprwm",
+            "repo": "hypridle",
+            "stars": 692
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gtklock",
+          "description": "A GTK-based lockscreen for wlroots-based Wayland compositors using the and Wayland protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-02-04T19:16:23Z",
+            "owner": "jovanlanik",
+            "repo": "gtklock",
+            "stars": 490
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wlgblock",
+          "description": "An emulator-based screen-locker for Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-09-20T09:15:47Z",
+            "owner": "AdoPi",
+            "repo": "wlgblock",
+            "stars": 173
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "cthulock",
+          "description": "A Slint-based customizable screen-locker for Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2025-09-27T08:09:19Z",
+            "owner": "FriederHannenheim",
+            "repo": "cthulock",
+            "stars": 58
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Shaderlock",
+          "description": "A wlroots-based screen-locker for Wayland utilizing GPU shaders",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2025-09-25T19:31:59Z",
+            "owner": "RobinMcCorkell",
+            "repo": "shaderlock",
+            "stars": 29
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Anvilock",
+          "description": "A simple screen-locker for Wayland compositors that support the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-07-12T17:11:42Z",
+            "owner": "muvilon",
+            "repo": "anvilock",
+            "stars": 22
+          }
+        }
+      ],
+      "title": "SCREEN LOCKING"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Kooha",
+          "description": "Minimalistic screen recorder for Wayland sessions implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-29T21:01:53Z",
+            "owner": "SeaDve",
+            "repo": "Kooha",
+            "stars": 3470
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wf-recorder",
+          "description": "A utility program for screen recording of wlroots-based compositors (more specifically, those that support and )",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-04-12T06:03:50Z",
+            "owner": "ammen99",
+            "repo": "wf-recorder",
+            "stars": 1302
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wl-screenrec",
+          "description": "A screen recorder for wlroots-based Wayland compositors leveraging DMA-BUF and the DRM and implementing the and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-10T15:14:16Z",
+            "owner": "russelltg",
+            "repo": "wl-screenrec",
+            "stars": 623
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wl-mirror",
+          "description": "A simple Wayland output mirror client",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-06-02T14:23:48Z",
+            "owner": "Ferdi265",
+            "repo": "wl-mirror",
+            "stars": 516
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wayfarer",
+          "description": "A screen recorder for GNOME/Wayland/PipeWire implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Vala",
+            "last_commit": "2025-10-25T07:55:01Z",
+            "owner": "stronnag",
+            "repo": "wayfarer",
+            "stars": 137
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ssr-wlroots",
+          "description": "A fork of SimpleScreenRecorder with support for wlroots-based compositors (more specifically, those that support and ) - doesn't support recording area selection and has issues with multiple screens",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2019-03-16T15:38:45Z",
+            "owner": "foxcpp",
+            "repo": "ssr-wlroots",
+            "stars": 26
+          }
+        }
+      ],
+      "title": "SCREENCASTS"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Satty",
+          "description": "A screenshot annotation tool inspired by Swappy and Flameshot",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-11T05:01:41Z",
+            "owner": "Satty-org",
+            "repo": "Satty",
+            "stars": 2311
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "swappy",
+          "description": "A Wayland-native snapshot editing tool, inspired by Snappy on macOS",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-12-16T01:49:23Z",
+            "owner": "jtheoof",
+            "repo": "swappy",
+            "stars": 1493
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "slurp",
+          "description": "Select a region in a Wayland compositor and print it to the standard output",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-05-10T11:04:31Z",
+            "owner": "emersion",
+            "repo": "slurp",
+            "stars": 1271
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Watershot",
+          "description": "A simple Wayland-native screenshot tool inspired by Flameshot",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2024-06-28T09:25:00Z",
+            "owner": "Kirottu",
+            "repo": "watershot",
+            "stars": 211
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "waysip",
+          "description": "An area selector for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-06T08:54:35Z",
+            "owner": "waycrate",
+            "repo": "waysip",
+            "stars": 30
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "haruhishot",
+          "description": "A screenshot utility for wlroots-based Wayland compositors implementing the and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-05-13T13:30:05Z",
+            "owner": "Decodetalkers",
+            "repo": "haruhishot",
+            "stars": 29
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "still",
+          "description": "A tool that freezes the screen until a provided command exits for wlroots-based Wayland compositors implementing the and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-12T15:24:50Z",
+            "owner": "faergeek",
+            "repo": "still",
+            "stars": 24
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "grabit",
+          "description": "A screenshot, screen-recording, and OCR tool for wlroots-based Wayland compositors implementing the , , and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-11T22:04:46Z",
+            "owner": "Creationsss",
+            "repo": "grabit",
+            "stars": 22
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "samurai-select",
+          "description": "A screen selection tool for wlroots-based Wayland compositors implementing",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-03-19T08:55:38Z",
+            "owner": "Samudevv",
+            "repo": "samurai-select",
+            "stars": 9
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Seto",
+          "description": "A hardware-accelerated and keyboard-driven screen selection tool implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Zig",
+            "last_commit": "2025-04-30T07:57:26Z",
+            "owner": "r0chd",
+            "repo": "Seto",
+            "stars": 9
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Weye",
+          "description": "A lightweight screenshot tool for sway users",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2022-06-23T05:45:18Z",
+            "owner": "Yakkhini",
+            "repo": "Weye",
+            "stars": 5
+          }
+        }
+      ],
+      "title": "SCREENSHOTS"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "wlogout",
+          "description": "A Wayland-based logout menu",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-07-04T04:04:20Z",
+            "owner": "ArtsyMacaw",
+            "repo": "wlogout",
+            "stars": 1047
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wleave",
+          "description": "A Wayland-based logout menu implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-25T05:33:48Z",
+            "owner": "AMNatty",
+            "repo": "wleave",
+            "stars": 337
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SwayAudioIdleInhibit",
+          "description": "Prevents swayidle from sleeping while any application is outputting or receiving audio, implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2025-11-27T23:27:13Z",
+            "owner": "ErikReider",
+            "repo": "SwayAudioIdleInhibit",
+            "stars": 260
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nwg-bar",
+          "description": "A Wayland-based logout menu implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-08-30T23:28:14Z",
+            "owner": "nwg-piotr",
+            "repo": "nwg-bar",
+            "stars": 175
+          }
+        }
+      ],
+      "title": "SESSION MANAGEMENT"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "lan-mouse",
+          "description": "A mouse and keyboard sharing software",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-06-28T14:49:45Z",
+            "owner": "feschber",
+            "repo": "lan-mouse",
+            "stars": 5119
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ydotool",
+          "description": "A generic Linux command-line automation tool",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-12-22T04:22:09Z",
+            "owner": "ReimuNotMoe",
+            "repo": "ydotool",
+            "stars": 2328
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wayvnc",
+          "description": "A VNC server for wlroots-based Wayland compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-01T15:49:54Z",
+            "owner": "any1",
+            "repo": "wayvnc",
+            "stars": 1792
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "hyprpicker",
+          "description": "A wlroots-compatible Wayland color picker",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-11T16:22:04Z",
+            "owner": "hyprwm",
+            "repo": "hyprpicker",
+            "stars": 1121
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wl-kbptr",
+          "description": "A utility to help move the mouse pointer with the keyboard implementing the and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-06-01T22:32:36Z",
+            "owner": "moverest",
+            "repo": "wl-kbptr",
+            "stars": 723
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wtype",
+          "description": "A Wayland tool that allows keyboard input simulation like",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-04-27T06:46:45Z",
+            "owner": "atx",
+            "repo": "wtype",
+            "stars": 551
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "waynergy",
+          "description": "An implementation of a synergy client for Wayland compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-07-05T18:12:38Z",
+            "owner": "r-c-f",
+            "repo": "waynergy",
+            "stars": 453
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wlr-which-key",
+          "description": "A keymap manager for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2025-11-21T10:36:08Z",
+            "owner": "MaxVerevkin",
+            "repo": "wlr-which-key",
+            "stars": 376
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "scenefx",
+          "description": "A drop-in replacement for the wlroots scene-graph API that allows Wayland compositors to render surfaces with eye-candy effects",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-11T15:39:53Z",
+            "owner": "wlrfx",
+            "repo": "scenefx",
+            "stars": 228
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "waycorner",
+          "description": "Hot corners for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2025-05-14T21:39:17Z",
+            "owner": "AndreasBackx",
+            "repo": "waycorner",
+            "stars": 149
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wayland-debug",
+          "description": "A command-line tool for debugging Wayland clients and servers",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-14T10:18:48Z",
+            "owner": "wmww",
+            "repo": "wayland-debug",
+            "stars": 91
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "whisper-overlay",
+          "description": "A tool providing speech-to-text functionality for Wayland compositors implementing and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2024-07-26T11:17:12Z",
+            "owner": "oddlama",
+            "repo": "whisper-overlay",
+            "stars": 88
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wlcs",
+          "description": "A protocol-conformance-verifying test suite usable by Wayland compositor implementors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-04T10:56:43Z",
+            "owner": "canonical",
+            "repo": "wlcs",
+            "stars": 59
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Vigiland",
+          "description": "An application implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2024-06-26T11:13:49Z",
+            "owner": "Jappie3",
+            "repo": "vigiland",
+            "stars": 36
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "clipcell",
+          "description": "A clipboard manager with support for text and image preview for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-06-09T10:38:52Z",
+            "owner": "divadiahim",
+            "repo": "clipcell",
+            "stars": 11
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wlprobe",
+          "description": "A utility for displaying information about the protocols supported by a Wayland compositor in a JSON format",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-03-02T19:55:31Z",
+            "owner": "PolyMeilex",
+            "repo": "wlprobe",
+            "stars": 10
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wlosd",
+          "description": "An on-screen display for Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-08-01T12:05:31Z",
+            "owner": "fshaked",
+            "repo": "wlosd",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sway-fader",
+          "description": "A tool that can be used to control transparency for focus and window events",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Go",
+            "last_commit": "2026-01-01T13:22:41Z",
+            "owner": "mgnsk",
+            "repo": "sway-fader",
+            "stars": 3
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dd99 Wayland Library",
+          "description": "A Wayland protocol scanner",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-06-18T00:01:47Z",
+            "owner": "Delta-dev-99",
+            "repo": "dd99_wayland",
+            "stars": 1
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Meadhall",
+          "description": "A Wayland utilities daemon designed to centralize communication",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-02-01T16:36:18Z",
+            "owner": "hkupty",
+            "repo": "meadhall",
+            "stars": 1
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wayland-display-info",
+          "description": "A lightweight user daemon that monitors Wayland outputs via the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-04-30T16:02:08Z",
+            "owner": "acrion",
+            "repo": "wayland-display-info",
+            "stars": 1
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wledges",
+          "description": "A tool for managing screen edges on wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-12-22T10:40:31Z",
+            "owner": "fshaked",
+            "repo": "wledges",
+            "stars": 1
+          }
+        }
+      ],
+      "title": "TOOLS"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "mpvpaper",
+          "description": "A video wallpaper program for wlroots-based Wayland compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-25T18:55:07Z",
+            "owner": "GhostNaN",
+            "repo": "mpvpaper",
+            "stars": 1565
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Hyprpaper",
+          "description": "A wallpaper utility with the ability to dynamically change wallpapers supporting all wlroots-based compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-11T16:21:18Z",
+            "owner": "hyprwm",
+            "repo": "hyprpaper",
+            "stars": 1342
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Waypaper",
+          "description": "A GUI frontend for swaybg/swww to switch wallpapers",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-10T09:40:16Z",
+            "owner": "anufrievroman",
+            "repo": "waypaper",
+            "stars": 1045
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "swaybg",
+          "description": "A wallpaper utility for Wayland compositors implementing the version 4 and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-05-25T08:00:23Z",
+            "owner": "swaywm",
+            "repo": "swaybg",
+            "stars": 805
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wpaperd",
+          "description": "A wallpaper daemon that shows random wallpapers from a directory and changes them after some time",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-10T09:59:42Z",
+            "owner": "danyspin97",
+            "repo": "wpaperd",
+            "stars": 603
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Wallutils",
+          "description": "A set of utilities to manage monitors, resolutions, wallpapers and timed wallpapers",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-06-04T20:47:47Z",
+            "owner": "xyproto",
+            "repo": "wallutils",
+            "stars": 522
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Azote",
+          "description": "A GTK 3-based picture browser and background setter supporting all wlroots-based Wayland compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-05-01T22:49:18Z",
+            "owner": "nwg-piotr",
+            "repo": "azote",
+            "stars": 413
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "neowall",
+          "description": "A shader-based GPU-accelerated wallpaper engine for Wayland compositors implementing either the or protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-11T00:33:47Z",
+            "owner": "1ay1",
+            "repo": "neowall",
+            "stars": 251
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "yin",
+          "description": "An efficient animated wallpaper daemon for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-01T18:36:54Z",
+            "owner": "SaverinOnRails",
+            "repo": "yin",
+            "stars": 213
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "rwpspread",
+          "description": "A multi-monitor wallpaper utility spanning input wallpapers across all monitors, supporting Wayland compositors implementing with integrations for , , , , and",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-10T08:50:32Z",
+            "owner": "0xk1f0",
+            "repo": "rwpspread",
+            "stars": 42
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "glshell",
+          "description": "A shader display implementing the protocol that can be used to create a simple overlay for a Wayland compositor, a status bar, or a wallpaper",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-01-28T19:45:27Z",
+            "owner": "Duckonaut",
+            "repo": "glshell",
+            "stars": 9
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "waul",
+          "description": "A minimalistic wallpaper daemon for Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-02-28T18:15:26Z",
+            "owner": "hoppxi",
+            "repo": "waul",
+            "stars": 2
+          }
+        }
+      ],
+      "title": "WALLPAPER"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Eww",
+          "description": "A standalone widget system that allows for implementing custom widgets in any window manager",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-17T07:29:44Z",
+            "owner": "elkowar",
+            "repo": "eww",
+            "stars": 12604
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Waybar",
+          "description": "A highly customizable bar for Sway and wlroots-based compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-03T21:07:00Z",
+            "owner": "Alexays",
+            "repo": "Waybar",
+            "stars": 11772
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "i3status-rust",
+          "description": "A resource-friendly and feature-rich replacement for i3status",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-11T22:53:37Z",
+            "owner": "greshake",
+            "repo": "i3status-rust",
+            "stars": 3135
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ags",
+          "description": "A standalone library for creating GTK-based widgets",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-04-08T23:04:21Z",
+            "owner": "Aylur",
+            "repo": "ags",
+            "stars": 3074
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Ironbar",
+          "description": "A customizable and feature-rich GTK bar for wlroots-based compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-10T17:05:38Z",
+            "owner": "JakeStanger",
+            "repo": "ironbar",
+            "stars": 1432
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "fabric",
+          "description": "A GTK-based desktop widget framework",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-01T07:35:28Z",
+            "owner": "Fabric-Development",
+            "repo": "fabric",
+            "stars": 1353
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wob",
+          "description": "A lightweight overlay volume/backlight/progress/anything bar for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-05-23T10:57:51Z",
+            "owner": "francma",
+            "repo": "wob",
+            "stars": 1147
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Astal",
+          "description": "A framework for creating GTK-based widgets for use with Wayland compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Vala",
+            "last_commit": "2026-08-08T10:10:42Z",
+            "owner": "Aylur",
+            "repo": "astal",
+            "stars": 973
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nwg-panel",
+          "description": "A GTK 3-based panel for Wayland compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-09T18:02:21Z",
+            "owner": "nwg-piotr",
+            "repo": "nwg-panel",
+            "stars": 780
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ignis",
+          "description": "A widget system based on GTK 4 for Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-12T18:04:37Z",
+            "owner": "ignis-sh",
+            "repo": "ignis",
+            "stars": 677
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gBar",
+          "description": "A status bar written with GTK",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-12-17T17:38:31Z",
+            "owner": "scorpion-26",
+            "repo": "gBar",
+            "stars": 538
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SFWBar",
+          "description": "A flexible taskbar application for Wayland compositors, designed with a stacking layout in mind",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-11T17:33:40Z",
+            "owner": "LBCrion",
+            "repo": "sfwbar",
+            "stars": 422
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dynisland",
+          "description": "An extensible bar for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2025-08-01T14:20:21Z",
+            "owner": "cr3eperall",
+            "repo": "dynisland",
+            "stars": 258
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Tsumiki",
+          "description": "A Fabric-based modular status bar for Hyprland",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-12T16:23:37Z",
+            "owner": "rubiin",
+            "repo": "tsumiki",
+            "stars": 234
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "syshud",
+          "description": "A system status indicator for wlroots-based Wayland compositors, implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-05-28T08:43:54Z",
+            "owner": "System64fumo",
+            "repo": "syshud",
+            "stars": 210
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nwg-wrapper",
+          "description": "A simple text-based wrapper that displays script or file output on the desktop of wlroots-based Wayland compositors implementing the and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-07-23T06:05:51Z",
+            "owner": "nwg-piotr",
+            "repo": "nwg-wrapper",
+            "stars": 201
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wl_shimeji",
+          "description": "A widget overlay for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-10T16:44:02Z",
+            "owner": "CluelessCatBurger",
+            "repo": "wl_shimeji",
+            "stars": 193
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "way-edges",
+          "description": "A lightweight application providing off-screen widgets hidden along the edges of the screen",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-04-25T01:05:18Z",
+            "owner": "way-edges",
+            "repo": "way-edges",
+            "stars": 149
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sysbar",
+          "description": "A modular status bar for wlroots-based Wayland compositors, implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-12T17:31:23Z",
+            "owner": "System64fumo",
+            "repo": "sysbar",
+            "stars": 96
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "YaGoStatus",
+          "description": "A replacement for i3status",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-02-17T20:14:53Z",
+            "owner": "burik666",
+            "repo": "yagostatus",
+            "stars": 80
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "creek",
+          "description": "A dwm-inspired fork of levee and minimalist status bar for the river-classic compositor designed to be more malleable by allowing arbitrary text rather than built-in modules",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Zig",
+            "last_commit": "2026-07-22T10:57:34Z",
+            "owner": "nmeum",
+            "repo": "creek",
+            "stars": 69
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Wapanel",
+          "description": "A simple panel/status bar/task bar for stacking Wayland-based desktops",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2022-02-13T21:53:01Z",
+            "owner": "Firstbober",
+            "repo": "wapanel",
+            "stars": 64
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Hybridbar",
+          "description": "A top panel forked from wingpanel for Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Vala",
+            "last_commit": "2024-09-20T08:14:11Z",
+            "owner": "hcsubser",
+            "repo": "hybridbar",
+            "stars": 63
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kitshell",
+          "description": "A Flutter-based panel for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Dart",
+            "last_commit": "2026-04-18T02:36:18Z",
+            "owner": "bootloopmaster636",
+            "repo": "kitshell",
+            "stars": 32
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "zenway",
+          "description": "A sway bar alternative that overlays on top of workspaces",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-11-21T19:30:56Z",
+            "owner": "2hdddg",
+            "repo": "zenway",
+            "stars": 28
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ergo",
+          "description": "A minimal status bar for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-12-18T14:32:52Z",
+            "owner": "pubfnmain",
+            "repo": "ergo",
+            "stars": 20
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "deburr",
+          "description": "A dwm-like status bar for wlroots-based Wayland compositors",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-07-13T21:08:34Z",
+            "owner": "gitRaiku",
+            "repo": "deburr",
+            "stars": 12
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "diowpanel",
+          "description": "A simple panel for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-11-29T12:54:14Z",
+            "owner": "DiogenesN",
+            "repo": "diowpanel",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "walrus-bar",
+          "description": "A status bar for wlroots-based Wayland compositors implementing the protocol",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Zig",
+            "last_commit": "2025-02-19T06:37:37Z",
+            "owner": "elijahimmer",
+            "repo": "walrus-bar",
+            "stars": 4
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "diowwindowlist",
+          "description": "A simple GUI application for listing and activating the currently opened toplevels (application windows) in wlroots-based Wayland compositors implementing the and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-09-07T10:27:27Z",
+            "owner": "DiogenesN",
+            "repo": "diowwindowlist",
+            "stars": 3
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Dvvidget",
+          "description": "A widget system for Wayland compositors implementing the and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2025-05-25T07:53:51Z",
+            "owner": "BL-CZY",
+            "repo": "dvvidget",
+            "stars": 3
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "animation-speech",
+          "description": "A configurable transparent speech animation overlay for Wayland compositors implementing the and protocols",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-03-28T11:25:46Z",
+            "owner": "rcspam",
+            "repo": "animation-speech",
+            "stars": 1
+          }
+        }
+      ],
+      "title": "WIDGETS (BARS, PANELS, ETC.)"
+    },
+    {
+      "description": "A number of window managers for Wayland are being developed using the protocol. That list is being maintained within River's wiki.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "velox",
+          "description": "A simple window manager based on swc, inspired by dwm and xmonad",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-04-10T19:42:19Z",
+            "owner": "michaelforney",
+            "repo": "velox",
+            "stars": 606
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tinybox",
+          "description": "A window manager based on tinywl inspired by Blackbox, Fluxbox, and Openbox",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-08-08T23:47:13Z",
+            "owner": "icedman",
+            "repo": "tinybox",
+            "stars": 31
+          }
+        }
+      ],
+      "title": "WINDOW MANAGERS"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T04:37:46.465Z",
+    "original_repository": "rcalixte/awesome-wayland",
+    "original_repository_sha": "009e1b671f98935df9735312edf0084b8b1c6500",
+    "enhanced_repository": "enhansome/enhansome-wayland",
+    "enhanced_repository_description": null,
+    "title": "Awesome wayland with stars"
+  }
+}
