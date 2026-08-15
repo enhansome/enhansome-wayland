@@ -5,7 +5,7 @@
 <h1 align="center">
   <samp style="color: #ffffff; background-color: #ffbc00;">Awesome Wayland</samp>
 
-[![Link Check](https://github.com/rcalixte/awesome-wayland/actions/workflows/link_check.yml/badge.svg?branch=master)](https://github.com/rcalixte/awesome-wayland/actions/workflows/link_check.yml) ⭐ 1,541 | 🐛 4 | 📅 2026-08-07
+[![Link Check](https://github.com/rcalixte/awesome-wayland/actions/workflows/link_check.yml/badge.svg?branch=master)](https://github.com/rcalixte/awesome-wayland/actions/workflows/link_check.yml) ⭐ 1,540 | 🐛 4 | 📅 2026-08-07
 
 </h1>
 
@@ -13,10 +13,10 @@ A curated list of [Wayland](https://gitlab.freedesktop.org/wayland/wayland) reso
 
 This repository is a hard fork of [natpen/awesome-wayland](https://github.com/natpen/awesome-wayland) ⚠️ Archived since it was archived on Oct. 17, 2023.
 
-There are no current plans to apply to the [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ⭐ 495,657 | 🐛 100 | 📅 2026-06-30 project for inclusion.
+There are no current plans to apply to the [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ⭐ 496,002 | 🐛 100 | 📅 2026-06-30 project for inclusion.
 
 > \[!NOTE]
-> If you want to contribute, please read [this](https://github.com/rcalixte/awesome-wayland/blob/master/.github/CONTRIBUTING.md) ⭐ 1,541 | 🐛 4 | 📅 2026-08-07.
+> If you want to contribute, please read [this](https://github.com/rcalixte/awesome-wayland/blob/master/.github/CONTRIBUTING.md) ⭐ 1,540 | 🐛 4 | 📅 2026-08-07.
 
 ## SCOPE
 
@@ -66,7 +66,7 @@ These are language-specific bindings for use with Wayland development.
 
 No Wayland-specific requirements, so you can use your Xorg solution of choice to control screen brightness, like [brightnessctl](https://github.com/Hummer12007/brightnessctl) ⭐ 1,256 | 🐛 24 | 🌐 C | 📅 2024-12-16, [brillo](https://gitlab.com/cameronnemo/brillo), or just directly manipulate `/sys/class/backlight`.
 
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [wluma](https://github.com/max-baz/wluma) ⭐ 932 | 🐛 8 | 🌐 Rust | 📅 2026-08-14 - A tool for wlroots-based compositors that automatically adjust screen brightness based on screen contents and ambient light
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [wluma](https://github.com/max-baz/wluma) ⭐ 932 | 🐛 2 | 🌐 Rust | 📅 2026-08-15 - A tool for wlroots-based compositors that automatically adjust screen brightness based on screen contents and ambient light
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [Clight](https://github.com/FedeDP/Clight) ⭐ 792 | 🐛 31 | 🌐 C | 📅 2026-03-04 - Day/night gamma adjustments for Wayland compositors supporting `wlr-gamma-control-unstable-v1`; automatic screen backlight calibration to match ambient brightness using either webcam or ambient light sensor devices; screen dimming
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [Luminance](https://github.com/sidevesh/Luminance) ⭐ 177 | 🐛 10 | 🌐 C | 📅 2026-08-09 - A simple GTK application to control brightness of displays including external displays supporting DDC/CI
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wl-gammactl](https://github.com/mischw/wl-gammactl) ⭐ 65 | 🐛 11 | 🌐 C | 📅 2024-08-05 - A GTK application to set contrast, brightness, and gamma using the `wlr-gamma-control` protocol
@@ -76,7 +76,7 @@ No Wayland-specific requirements, so you can use your Xorg solution of choice to
 
 ## CLIPBOARD MANAGERS
 
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wl-clipboard](https://github.com/bugaevc/wl-clipboard) ⭐ 2,400 | 🐛 70 | 🌐 C | 📅 2026-08-06 - Command-line copy/paste utilities for Wayland
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wl-clipboard](https://github.com/bugaevc/wl-clipboard) ⭐ 2,401 | 🐛 70 | 🌐 C | 📅 2026-08-06 - Command-line copy/paste utilities for Wayland
 * ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic\&logo=go\&logoColor=fff) [cliphist](https://github.com/sentriz/cliphist) ⭐ 1,523 | 🐛 13 | 🌐 Go | 📅 2026-06-08 - A clipboard history manager for Wayland
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [clapboard](https://github.com/bjesus/clapboard) ⭐ 82 | 🐛 1 | 🌐 Rust | 📅 2025-10-06 - A clipboard manager with support for images and saved entries
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wayclip](https://github.com/noocsharp/wayclip) ⭐ 32 | 🐛 0 | 🌐 C | 📅 2025-09-22 - A Wayland clipboard utility implementing the `wlr-data-control-unstable-v1` protocol
@@ -86,35 +86,35 @@ No Wayland-specific requirements, so you can use your Xorg solution of choice to
 
 ## COMPOSITORS
 
-* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Hyprland](https://github.com/hyprwm/Hyprland) ⭐ 37,871 | 🐛 187 | 🌐 C++ | 📅 2026-08-12 - A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [niri](https://github.com/niri-wm/niri) ⭐ 26,895 | 🐛 485 | 🌐 Rust | 📅 2026-08-14 - A Smithay-based scrollable tiling Wayland compositor
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [sway](https://github.com/swaywm/sway) ⭐ 17,232 | 🐛 1,378 | 🌐 C | 📅 2026-07-31 - An i3-compatible Wayland compositor
-* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [gamescope](https://github.com/ValveSoftware/gamescope) ⭐ 4,983 | 🐛 941 | 🌐 C++ | 📅 2026-08-14 - A wlroots-based Wayland compositor designed for SteamOS
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [mangowm](https://github.com/mangowm/mango) ⭐ 3,463 | 🐛 208 | 🌐 C | 📅 2026-08-14 - A dwl-inspired Wayland compositor with lightweight animations and customizable layouts
-* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Wayfire](https://github.com/WayfireWM/wayfire) ⭐ 3,035 | 🐛 111 | 🌐 C++ | 📅 2026-08-11 - A 3D wlroots-based Wayland compositor inspired by Compiz
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [labwc](https://github.com/labwc/labwc) ⭐ 2,721 | 🐛 297 | 🌐 C | 📅 2026-08-10 - A wlroots-based stacking compositor for Wayland, inspired by openbox
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [SwayFX](https://github.com/wlrfx/swayfx) ⭐ 2,329 | 🐛 156 | 🌐 C | 📅 2026-08-11 - Sway, but with eye candy
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [Cage](https://github.com/cage-kiosk/cage) ⭐ 2,009 | 🐛 121 | 🌐 C | 📅 2026-07-20 - A Wayland compositor that runs a single application in maximized mode, particularly suitable for kiosk applications
+* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Hyprland](https://github.com/hyprwm/Hyprland) ⭐ 37,889 | 🐛 189 | 🌐 C++ | 📅 2026-08-15 - A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [niri](https://github.com/niri-wm/niri) ⭐ 26,918 | 🐛 486 | 🌐 Rust | 📅 2026-08-14 - A Smithay-based scrollable tiling Wayland compositor
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [sway](https://github.com/swaywm/sway) ⭐ 17,235 | 🐛 1,377 | 🌐 C | 📅 2026-07-31 - An i3-compatible Wayland compositor
+* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [gamescope](https://github.com/ValveSoftware/gamescope) ⭐ 4,985 | 🐛 941 | 🌐 C++ | 📅 2026-08-14 - A wlroots-based Wayland compositor designed for SteamOS
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [mangowm](https://github.com/mangowm/mango) ⭐ 3,468 | 🐛 207 | 🌐 C | 📅 2026-08-15 - A dwl-inspired Wayland compositor with lightweight animations and customizable layouts
+* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Wayfire](https://github.com/WayfireWM/wayfire) ⭐ 3,036 | 🐛 112 | 🌐 C++ | 📅 2026-08-11 - A 3D wlroots-based Wayland compositor inspired by Compiz
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [labwc](https://github.com/labwc/labwc) ⭐ 2,724 | 🐛 295 | 🌐 C | 📅 2026-08-14 - A wlroots-based stacking compositor for Wayland, inspired by openbox
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [SwayFX](https://github.com/wlrfx/swayfx) ⭐ 2,332 | 🐛 156 | 🌐 C | 📅 2026-08-11 - Sway, but with eye candy
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [Cage](https://github.com/cage-kiosk/cage) ⭐ 2,010 | 🐛 121 | 🌐 C | 📅 2026-07-20 - A Wayland compositor that runs a single application in maximized mode, particularly suitable for kiosk applications
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic\&logo=javascript\&logoColor=%23f7df1e) [Greenfield](https://github.com/udevbe/greenfield) ⭐ 1,265 | 🐛 23 | 🌐 TypeScript | 📅 2025-11-02 - An HTML5 Wayland compositor that runs directly in the browser
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [cosmic-comp](https://github.com/pop-os/cosmic-comp) ⭐ 811 | 🐛 934 | 🌐 Rust | 📅 2026-08-14 - A Smithay-based Wayland compositor designed for the COSMIC desktop environment
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [cosmic-comp](https://github.com/pop-os/cosmic-comp) ⭐ 815 | 🐛 940 | 🌐 Rust | 📅 2026-08-14 - A Smithay-based Wayland compositor designed for the COSMIC desktop environment
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [miracle-wm](https://github.com/miracle-wm-org/miracle-wm) ⭐ 791 | 🐛 42 | 🌐 C++ | 📅 2026-08-12 - A Mir-based tiling Wayland compositor
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [kiwmi](https://github.com/buffet/kiwmi) ⭐ 763 | 🐛 11 | 🌐 C | 📅 2025-08-14 - A fully programmable Wayland compositor
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [Jay](https://github.com/mahkoh/jay) ⭐ 695 | 🐛 97 | 🌐 Rust | 📅 2026-08-14 - A tiling Wayland compositor inspired by i3wm
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [Jay](https://github.com/mahkoh/jay) ⭐ 695 | 🐛 98 | 🌐 Rust | 📅 2026-08-15 - A tiling Wayland compositor inspired by i3wm
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [pinnacle](https://github.com/pinnacle-comp/pinnacle) ⭐ 626 | 🐛 43 | 🌐 Rust | 📅 2026-06-27 - A Smithay-based Wayland compositor inspired by AwesomeWM
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [scroll](https://github.com/dawsers/scroll) ⭐ 579 | 🐛 7 | 🌐 C | 📅 2026-08-12 - A wlroots-based scrollable Wayland compositor forked from sway with a layout similar to PaperWM and niri
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [Waybox](https://github.com/wizbright/waybox) ⭐ 536 | 🐛 12 | 🌐 C | 📅 2026-01-03 - An openbox clone on Wayland
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [Vivarium](https://github.com/inclement/vivarium) ⭐ 424 | 🐛 36 | 🌐 C | 📅 2023-09-22 - A dynamic tiling Wayland compositor using wlroots, with desktop semantics inspired by xmonad
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wlmaker](https://github.com/phkaeser/wlmaker) ⭐ 419 | 🐛 21 | 🌐 C | 📅 2026-08-14 - A Wayland compositor inspired by Window Maker
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) ![Lisp](https://img.shields.io/badge/lisp-%23000.svg?style=plastic\&logo=lisp\&logoColor=fff) [mahogany](https://github.com/stumpwm/mahogany) ⭐ 381 | 🐛 65 | 🌐 Common Lisp | 📅 2026-08-14 - A StumpWM-like Wayland compositor
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wlmaker](https://github.com/phkaeser/wlmaker) ⭐ 420 | 🐛 21 | 🌐 C | 📅 2026-08-14 - A Wayland compositor inspired by Window Maker
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) ![Lisp](https://img.shields.io/badge/lisp-%23000.svg?style=plastic\&logo=lisp\&logoColor=fff) [mahogany](https://github.com/stumpwm/mahogany) ⭐ 381 | 🐛 63 | 🌐 Common Lisp | 📅 2026-08-15 - A StumpWM-like Wayland compositor
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [Cagebreak](https://github.com/project-repo/cagebreak) ⭐ 374 | 🐛 4 | 🌐 C | 📅 2026-06-13 - A Wayland tiling compositor inspired by Ratpoison
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [fht-compositor](https://github.com/nferhat/fht-compositor) ⭐ 275 | 🐛 23 | 🌐 Rust | 📅 2026-08-13 - A dynamic tiling Wayland compositor
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Liri Shell](https://github.com/lirios/shell) ⭐ 248 | 🐛 35 | 🌐 C++ | 📅 2024-02-11 - A convergent shell for desktops, phones, and tablets
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [way-shell](https://github.com/ldelossa/way-shell) ⭐ 196 | 🐛 13 | 🌐 C | 📅 2026-02-21 - A desktop shell based on GTK 4 for wlroots-based Wayland compositors
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [CwC](https://github.com/Cudiph/cwcwm) ⭐ 181 | 🐛 11 | 🌐 C | 📅 2026-07-06 - A highly configurable wlroots-based tiling window manager, inspired by AwesomeWM
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [CwC](https://github.com/Cudiph/cwcwm) ⭐ 182 | 🐛 11 | 🌐 C | 📅 2026-07-06 - A highly configurable wlroots-based tiling window manager, inspired by AwesomeWM
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wayward](https://github.com/varmd/wayward) ⭐ 124 | 🐛 3 | 🌐 C | 📅 2026-07-20 - A lightweight desktop shell compatible with Weston
-* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Miriway](https://github.com/Miriway/Miriway) ⭐ 105 | 🐛 15 | 🌐 C++ | 📅 2026-08-11 - A Mir-based Wayland compositor
+* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Miriway](https://github.com/Miriway/Miriway) ⭐ 105 | 🐛 17 | 🌐 C++ | 📅 2026-08-11 - A Mir-based Wayland compositor
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [treeland](https://github.com/linuxdeepin/treeland) ⭐ 74 | 🐛 94 | 🌐 C++ | 📅 2026-08-14 - A wlroots-based Wayland compositor also based on Qt Quick
-* ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic\&logo=go\&logoColor=fff) [Nyctal](https://github.com/s-rah/nyctal) ⭐ 55 | 🐛 1 | 🌐 Go | 📅 2024-11-24 - A tiny, minimal-dependency Wayland compositor
+* ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic\&logo=go\&logoColor=fff) [Nyctal](https://github.com/s-rah/nyctal) ⭐ 56 | 🐛 1 | 🌐 Go | 📅 2024-11-24 - A tiny, minimal-dependency Wayland compositor
 * ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic\&logo=zig\&logoColor=fff) [foxwhale](https://github.com/malcolmstill/foxwhale) ⭐ 42 | 🐛 18 | 🌐 Zig | 📅 2024-10-20 - A tiling Wayland compositor based on wlroots
 * ![Nim](https://img.shields.io/badge/nim-%23171921.svg?style=plastic\&logo=nim\&logoColor=ffe953) [gogh](https://github.com/xTrayambak/gogh) ⭐ 39 | 🐛 2 | 🌐 C | 📅 2025-05-01 - A lightweight Wayland compositor using Louvre
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [LaikaWM](https://github.com/ianmartinez/laikawm) ⭐ 36 | 🐛 1 | 🌐 C++ | 📅 2020-10-01 - A lightweight compositor for Wayland inspired by IceWM and Fluxbox
@@ -154,7 +154,7 @@ No Wayland-specific requirements, so you can use your Xorg solution of choice to
 
 ## DISPLAY CONFIGURATION
 
-* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [nwg-displays](https://github.com/nwg-piotr/nwg-displays) ⭐ 1,073 | 🐛 41 | 🌐 Python | 📅 2026-06-01 - An output management utility for sway and Hyprland, inspired by wdisplays and wlay
+* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [nwg-displays](https://github.com/nwg-piotr/nwg-displays) ⭐ 1,075 | 🐛 41 | 🌐 Python | 📅 2026-06-01 - An output management utility for sway and Hyprland, inspired by wdisplays and wlay
 * ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic\&logo=go\&logoColor=fff) [Wallutils](https://github.com/xyproto/wallutils) ⭐ 522 | 🐛 5 | 🌐 Go | 📅 2026-06-04 - A set of utilities to handle monitors, resolutions, wallpapers, and timed wallpapers
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wdisplays](https://github.com/artizirk/wdisplays) ⭐ 283 | 🐛 25 | 🌐 C | 📅 2025-07-25 - A GUI application for configuring displays in wlroots-based compositors implementing the `wlr-output-management-unstable-v1` protocol
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wlay](https://github.com/atx/wlay) ⭐ 123 | 🐛 10 | 🌐 C | 📅 2024-07-02 - Graphical output management for Wayland
@@ -166,7 +166,7 @@ No Wayland-specific requirements, so you can use your Xorg solution of choice to
 
 ## EMULATION
 
-* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [Waydroid](https://github.com/waydroid/waydroid) ⭐ 11,983 | 🐛 930 | 🌐 Python | 📅 2026-08-01 - A container-based approach to boot a full Android system on GNU/Linux
+* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [Waydroid](https://github.com/waydroid/waydroid) ⭐ 11,996 | 🐛 930 | 🌐 Python | 📅 2026-08-01 - A container-based approach to boot a full Android system on GNU/Linux
 
 ## IMAGE VIEWING
 
@@ -174,15 +174,15 @@ No Wayland-specific requirements, so you can use your Xorg solution of choice to
 
 ## LAUNCHERS
 
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [walker](https://github.com/abenz1267/walker) ⭐ 2,979 | 🐛 20 | 🌐 Rust | 📅 2026-07-23 - A GTK-based Wayland-native application runner
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [walker](https://github.com/abenz1267/walker) ⭐ 2,982 | 🐛 21 | 🌐 Rust | 📅 2026-07-23 - A GTK-based Wayland-native application runner
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [bemenu](https://github.com/Cloudef/bemenu) ⭐ 1,484 | 🐛 94 | 🌐 C | 📅 2025-08-29 - A dynamic menu library and client program inspired by dmenu
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [tofi](https://github.com/philj56/tofi) ⭐ 1,392 | 🐛 117 | 🌐 C | 📅 2024-12-30 - A dynamic menu replacement for dmenu or rofi for wlroots-based Wayland compositors
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [Anyrun](https://github.com/anyrun-org/anyrun) ⭐ 1,287 | 🐛 72 | 🌐 Rust | 📅 2026-08-14 - A GTK-based Wayland-native launcher, customizable via CSS
-* ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic\&logo=go\&logoColor=fff) [Hexecute](https://github.com/m31-galaxy/Hexecute) ⭐ 691 | 🐛 11 | 🌐 C | 📅 2026-06-25 - A gesture-based launcher for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [sirula](https://github.com/DorianRudolph/sirula) ⭐ 560 | 🐛 5 | 🌐 Rust | 📅 2026-05-04 - A simple application launcher for Wayland
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [tofi](https://github.com/philj56/tofi) ⭐ 1,393 | 🐛 117 | 🌐 C | 📅 2024-12-30 - A dynamic menu replacement for dmenu or rofi for wlroots-based Wayland compositors
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [Anyrun](https://github.com/anyrun-org/anyrun) ⭐ 1,288 | 🐛 72 | 🌐 Rust | 📅 2026-08-14 - A GTK-based Wayland-native launcher, customizable via CSS
+* ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic\&logo=go\&logoColor=fff) [Hexecute](https://github.com/m31-galaxy/Hexecute) ⭐ 692 | 🐛 11 | 🌐 C | 📅 2026-06-25 - A gesture-based launcher for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [sirula](https://github.com/DorianRudolph/sirula) ⭐ 561 | 🐛 5 | 🌐 Rust | 📅 2026-05-04 - A simple application launcher for Wayland
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [kickoff](https://github.com/j0ru/kickoff) ⭐ 480 | 🐛 20 | 🌐 Rust | 📅 2026-08-11 - A wlroots-based application launcher
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [yofi](https://github.com/l4l/yofi) ⭐ 439 | 🐛 19 | 🌐 Rust | 📅 2026-04-17 - A minimalistic menu for Wayland-based compositors
-* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [nwg-launchers](https://github.com/nwg-piotr/nwg-launchers) ⭐ 426 | 🐛 19 | 🌐 C++ | 📅 2024-02-06 - A GTK-based application grid launcher, button bar, and dmenu for Sway with a best effort for other Wayland environments
+* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [nwg-launchers](https://github.com/nwg-piotr/nwg-launchers) ⭐ 427 | 🐛 19 | 🌐 C++ | 📅 2024-02-06 - A GTK-based application grid launcher, button bar, and dmenu for Sway with a best effort for other Wayland environments
 * ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic\&logo=go\&logoColor=fff) [nwg-drawer](https://github.com/nwg-piotr/nwg-drawer) ⭐ 421 | 🐛 32 | 🌐 Go | 📅 2026-03-24 - An application launcher for wlroots-based Wayland compositors implementing the `gtk4-layer-shell` protocol
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [dmenu-wayland](https://github.com/nyyManni/dmenu-wayland) ⭐ 215 | 🐛 16 | 🌐 C | 📅 2023-12-22 - A wlroots-based dynamic menu for Wayland
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [wldash](https://github.com/kennylevinsen/wldash) ⭐ 204 | 🐛 13 | 🌐 Rust | 📅 2025-05-08 - A dashboard, launcher, or control panel for Wayland, using the `wlr-layer-shell-unstable-v1` protocol
@@ -205,8 +205,8 @@ No Wayland-specific requirements, so you can use your Xorg solution of choice to
 
 ## LIBRARIES
 
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [smithay](https://github.com/Smithay/smithay) ⭐ 3,168 | 🐛 255 | 🌐 Rust | 📅 2026-08-14 - A compositor library for Wayland
-* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Mir](https://github.com/canonical/mir) ⭐ 777 | 🐛 413 | 🌐 C++ | 📅 2026-08-14 - A set of libraries for building Wayland-based shells
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [smithay](https://github.com/Smithay/smithay) ⭐ 3,169 | 🐛 255 | 🌐 Rust | 📅 2026-08-14 - A compositor library for Wayland
+* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Mir](https://github.com/canonical/mir) ⭐ 777 | 🐛 409 | 🌐 C++ | 📅 2026-08-14 - A set of libraries for building Wayland-based shells
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [swc](https://github.com/michaelforney/swc) ⭐ 755 | 🐛 23 | 🌐 C | 📅 2026-03-26 - A small Wayland compositor implemented as a library
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Louvre](https://github.com/CuarzoSoftware/Louvre) ⭐ 681 | 🐛 8 | 🌐 C++ | 📅 2026-07-20 - A library designed for building Wayland compositors in C++
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [client-toolkit](https://github.com/Smithay/client-toolkit) ⭐ 433 | 🐛 74 | 🌐 Rust | 📅 2026-07-29 - A toolkit for writing Wayland clients in Rust
@@ -233,7 +233,7 @@ No Wayland-specific requirements, so you can use your Xorg solution of choice to
 
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [dunst](https://github.com/dunst-project/dunst) ⭐ 5,566 | 🐛 123 | 🌐 C | 📅 2026-08-11 - A highly configurable and lightweight notification daemon
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [mako](https://github.com/emersion/mako) ⭐ 3,221 | 🐛 134 | 🌐 C | 📅 2026-06-30 - A lightweight notification daemon for Wayland implementing the `wlr-layer-shell-unstable-v1` protocol
-* ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic\&logo=vala\&logoColor=fff) [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter) ⭐ 2,555 | 🐛 108 | 🌐 Vala | 📅 2026-06-25 - A simple notification daemon with a GTK GUI for notifications and the control center implementing the `wlr-layer-shell-unstable-v1` protocol
+* ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic\&logo=vala\&logoColor=fff) [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter) ⭐ 2,557 | 🐛 108 | 🌐 Vala | 📅 2026-06-25 - A simple notification daemon with a GTK GUI for notifications and the control center implementing the `wlr-layer-shell-unstable-v1` protocol
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [SwayOSD](https://github.com/ErikReider/SwayOSD) ⭐ 1,292 | 🐛 30 | 🌐 Rust | 📅 2026-06-22 - A GTK-based OSD window for common actions like volume and Caps Lock
 * ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic\&logo=vala\&logoColor=fff) [Avizo](https://github.com/heyjuvi/avizo) ⭐ 617 | 🐛 26 | 🌐 Vala | 📅 2025-10-08 - A simple notification daemon, mainly intended to be used for multimedia keys
 * ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic\&logo=go\&logoColor=fff) [histui](https://github.com/jmylchreest/histui) ⭐ 20 | 🐛 0 | 🌐 Go | 📅 2026-08-12 - A themeable notification daemon with TUI and CLI options for Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
@@ -263,7 +263,7 @@ These are mainly for developers looking for example implementations.
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [swaylock](https://github.com/swaywm/swaylock) ⭐ 1,211 | 🐛 101 | 🌐 C | 📅 2026-07-09 - A screen locking utility for Wayland which implements the `ext-idle-notify-v1` protocol protocol
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [swaylock-effects](https://github.com/mortie/swaylock-effects) ⭐ 861 | 🐛 61 | 🌐 C | 📅 2023-11-28 - A fork of swaylock which adds, built-in screenshots, image manipulation, and various other effects like blurring
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [swayidle](https://github.com/swaywm/swayidle) ⭐ 754 | 🐛 39 | 🌐 C | 📅 2025-11-11 - An idle management daemon for Wayland which implements the `ext-idle-notify-v1` protocol
-* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [hypridle](https://github.com/hyprwm/hypridle) ⭐ 692 | 🐛 43 | 🌐 C++ | 📅 2026-08-11 - A wlroots-based idle management daemon implementing the `ext-idle-notify-v1` protocol
+* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [hypridle](https://github.com/hyprwm/hypridle) ⭐ 693 | 🐛 43 | 🌐 C++ | 📅 2026-08-11 - A wlroots-based idle management daemon implementing the `ext-idle-notify-v1` protocol
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [gtklock](https://github.com/jovanlanik/gtklock) ⭐ 490 | 🐛 26 | 🌐 C | 📅 2026-02-04 - A GTK-based lockscreen for wlroots-based Wayland compositors using the `wlr-layer-shell-unstable-v1` and `wlr-input-inhibitor` Wayland protocols
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wlgblock](https://github.com/AdoPi/wlgblock) ⭐ 173 | 🐛 0 | 🌐 C | 📅 2025-09-20 - An emulator-based screen-locker for Wayland compositors implementing the `ext-session-lock-v1` protocol
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [cthulock](https://github.com/FriederHannenheim/cthulock) ⭐ 58 | 🐛 3 | 🌐 Rust | 📅 2025-09-27 - A Slint-based customizable screen-locker for Wayland compositors implementing the `ext-session-lock-v1` protocol
@@ -275,7 +275,7 @@ These are mainly for developers looking for example implementations.
 
 ## SCREENCASTS
 
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [Kooha](https://github.com/SeaDve/Kooha) ⭐ 3,476 | 🐛 96 | 🌐 Rust | 📅 2026-07-29 - Minimalistic screen recorder for Wayland sessions implementing the `org.freedesktop.impl.portal.ScreenCast` protocol
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [Kooha](https://github.com/SeaDve/Kooha) ⭐ 3,478 | 🐛 96 | 🌐 Rust | 📅 2026-07-29 - Minimalistic screen recorder for Wayland sessions implementing the `org.freedesktop.impl.portal.ScreenCast` protocol
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [wf-recorder](https://github.com/ammen99/wf-recorder) ⭐ 1,303 | 🐛 55 | 🌐 C++ | 📅 2026-04-12 - A utility program for screen recording of wlroots-based compositors (more specifically, those that support `wlr-screencopy-unstable-v1` and `xdg-output-unstable-v1`)
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [wl-screenrec](https://github.com/russelltg/wl-screenrec) ⭐ 623 | 🐛 29 | 🌐 Rust | 📅 2026-08-10 - A screen recorder for wlroots-based Wayland compositors leveraging DMA-BUF and the DRM and implementing the `wlr-output-management-unstable-v1` and `wlr-screencopy-unstable-v1` protocols
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wl-mirror](https://github.com/Ferdi265/wl-mirror) ⭐ 516 | 🐛 20 | 🌐 C | 📅 2026-06-02 - A simple Wayland output mirror client
@@ -286,7 +286,7 @@ These are mainly for developers looking for example implementations.
 
 ## SCREENSHOTS
 
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [Satty](https://github.com/Satty-org/Satty) ⭐ 2,315 | 🐛 79 | 🌐 Rust | 📅 2026-08-11 - A screenshot annotation tool inspired by Swappy and Flameshot
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [Satty](https://github.com/Satty-org/Satty) ⭐ 2,316 | 🐛 79 | 🌐 Rust | 📅 2026-08-11 - A screenshot annotation tool inspired by Swappy and Flameshot
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [swappy](https://github.com/jtheoof/swappy) ⭐ 1,494 | 🐛 49 | 🌐 C | 📅 2025-12-16 - A Wayland-native snapshot editing tool, inspired by Snappy on macOS
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [slurp](https://github.com/emersion/slurp) ⭐ 1,271 | 🐛 51 | 🌐 C | 📅 2026-05-10 - Select a region in a Wayland compositor and print it to the standard output
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [Watershot](https://github.com/Kirottu/watershot) ⭐ 211 | 🐛 23 | 🌐 Rust | 📅 2024-06-28 - A simple Wayland-native screenshot tool inspired by Flameshot
@@ -307,7 +307,7 @@ These are mainly for developers looking for example implementations.
 
 ## SESSION MANAGEMENT
 
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wlogout](https://github.com/ArtsyMacaw/wlogout) ⭐ 1,047 | 🐛 45 | 🌐 C | 📅 2024-07-04 - A Wayland-based logout menu
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wlogout](https://github.com/ArtsyMacaw/wlogout) ⭐ 1,048 | 🐛 45 | 🌐 C | 📅 2024-07-04 - A Wayland-based logout menu
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [wleave](https://github.com/AMNatty/wleave) ⭐ 337 | 🐛 9 | 🌐 Rust | 📅 2026-07-25 - A Wayland-based logout menu implementing the `gtk3-layer-shell` protocol
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [SwayAudioIdleInhibit](https://github.com/ErikReider/SwayAudioIdleInhibit) ⭐ 260 | 🐛 16 | 🌐 C++ | 📅 2025-11-27 - Prevents swayidle from sleeping while any application is outputting or receiving audio, implementing the `idle-inhibit-unstable-v1` protocol
 * ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic\&logo=go\&logoColor=fff) [nwg-bar](https://github.com/nwg-piotr/nwg-bar) ⭐ 175 | 🐛 6 | 🌐 Go | 📅 2024-08-30 - A Wayland-based logout menu implementing the `gtk3-layer-shell` protocol
@@ -318,11 +318,11 @@ These are mainly for developers looking for example implementations.
 
 ## TOOLS
 
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [lan-mouse](https://github.com/feschber/lan-mouse) ⭐ 5,125 | 🐛 128 | 🌐 Rust | 📅 2026-06-28 - A mouse and keyboard sharing software
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [ydotool](https://github.com/ReimuNotMoe/ydotool) ⭐ 2,329 | 🐛 95 | 🌐 C | 📅 2025-12-22 - A generic Linux command-line automation tool
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [lan-mouse](https://github.com/feschber/lan-mouse) ⭐ 5,127 | 🐛 128 | 🌐 Rust | 📅 2026-06-28 - A mouse and keyboard sharing software
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [ydotool](https://github.com/ReimuNotMoe/ydotool) ⭐ 2,330 | 🐛 95 | 🌐 C | 📅 2025-12-22 - A generic Linux command-line automation tool
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wayvnc](https://github.com/any1/wayvnc) ⭐ 1,795 | 🐛 43 | 🌐 C | 📅 2026-08-01 - A VNC server for wlroots-based Wayland compositors
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [hyprpicker](https://github.com/hyprwm/hyprpicker) ⭐ 1,121 | 🐛 26 | 🌐 C++ | 📅 2026-08-11 - A wlroots-compatible Wayland color picker
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wl-kbptr](https://github.com/moverest/wl-kbptr) ⭐ 726 | 🐛 43 | 🌐 C | 📅 2026-06-01 - A utility to help move the mouse pointer with the keyboard implementing the `wlr-layer-shell-unstable-v1` and `wlr-virtual-pointer-unstable-v1` protocols
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wl-kbptr](https://github.com/moverest/wl-kbptr) ⭐ 726 | 🐛 42 | 🌐 C | 📅 2026-06-01 - A utility to help move the mouse pointer with the keyboard implementing the `wlr-layer-shell-unstable-v1` and `wlr-virtual-pointer-unstable-v1` protocols
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wtype](https://github.com/atx/wtype) ⭐ 552 | 🐛 42 | 🌐 C | 📅 2024-04-27 - A Wayland tool that allows keyboard input simulation like [`xdotool`](https://github.com/jordansissel/xdotool) ⭐ 3,837 | 🐛 323 | 🌐 C | 📅 2026-06-30
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [waynergy](https://github.com/r-c-f/waynergy) ⭐ 453 | 🐛 32 | 🌐 C | 📅 2024-07-05 - An implementation of a synergy client for Wayland compositors
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [wlr-which-key](https://github.com/MaxVerevkin/wlr-which-key) ⭐ 376 | 🐛 19 | 🌐 Rust | 📅 2025-11-21 - A keymap manager for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
@@ -358,15 +358,15 @@ These are mainly for developers looking for example implementations.
 
 ## WALLPAPER
 
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [mpvpaper](https://github.com/GhostNaN/mpvpaper) ⭐ 1,569 | 🐛 15 | 🌐 C | 📅 2026-07-25 - A video wallpaper program for wlroots-based Wayland compositors
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [mpvpaper](https://github.com/GhostNaN/mpvpaper) ⭐ 1,571 | 🐛 15 | 🌐 C | 📅 2026-07-25 - A video wallpaper program for wlroots-based Wayland compositors
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Hyprpaper](https://github.com/hyprwm/hyprpaper) ⭐ 1,344 | 🐛 48 | 🌐 C++ | 📅 2026-08-13 - A wallpaper utility with the ability to dynamically change wallpapers supporting all wlroots-based compositors
-* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [Waypaper](https://github.com/anufrievroman/waypaper) ⭐ 1,044 | 🐛 23 | 🌐 Python | 📅 2026-06-10 - A GUI frontend for swaybg/swww to switch wallpapers
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [swaybg](https://github.com/swaywm/swaybg) ⭐ 807 | 🐛 14 | 🌐 C | 📅 2026-05-25 - A wallpaper utility for Wayland compositors implementing the `wl_output` version 4 and `wlr-layer-shell-unstable-v1` protocols
+* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [Waypaper](https://github.com/anufrievroman/waypaper) ⭐ 1,047 | 🐛 23 | 🌐 Python | 📅 2026-06-10 - A GUI frontend for swaybg/swww to switch wallpapers
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [swaybg](https://github.com/swaywm/swaybg) ⭐ 808 | 🐛 14 | 🌐 C | 📅 2026-05-25 - A wallpaper utility for Wayland compositors implementing the `wl_output` version 4 and `wlr-layer-shell-unstable-v1` protocols
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [wpaperd](https://github.com/danyspin97/wpaperd) ⭐ 603 | 🐛 30 | 🌐 Rust | 📅 2026-08-10 - A wallpaper daemon that shows random wallpapers from a directory and changes them after some time
 * ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic\&logo=go\&logoColor=fff) [Wallutils](https://github.com/xyproto/wallutils) ⭐ 522 | 🐛 5 | 🌐 Go | 📅 2026-06-04 - A set of utilities to manage monitors, resolutions, wallpapers and timed wallpapers
 * ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [Azote](https://github.com/nwg-piotr/azote) ⭐ 413 | 🐛 9 | 🌐 Python | 📅 2025-05-01 - A GTK 3-based picture browser and background setter supporting all wlroots-based Wayland compositors
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [neowall](https://github.com/1ay1/neowall) ⭐ 252 | 🐛 1 | 🌐 C | 📅 2026-08-11 - A shader-based GPU-accelerated wallpaper engine for Wayland compositors implementing either the `kde-plasma-shell` or `wlr-layer-shell-unstable-v1` protocols
-* ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic\&logo=zig\&logoColor=fff) [yin](https://github.com/SaverinOnRails/yin) ⭐ 214 | 🐛 1 | 🌐 C++ | 📅 2026-08-01 - An efficient animated wallpaper daemon for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
+* ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic\&logo=zig\&logoColor=fff) [yin](https://github.com/SaverinOnRails/yin) ⭐ 215 | 🐛 1 | 🌐 C++ | 📅 2026-08-01 - An efficient animated wallpaper daemon for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [rwpspread](https://github.com/0xk1f0/rwpspread) ⭐ 42 | 🐛 0 | 🌐 Rust | 📅 2026-08-10 - A multi-monitor wallpaper utility spanning input wallpapers across all monitors, supporting Wayland compositors implementing `xdg-output-unstable-v1` with integrations for `wpaperd`, `swaybg`, `hyprpaper`, `swaylock`, and `hyprlock`
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [glshell](https://github.com/Duckonaut/glshell) ⭐ 9 | 🐛 1 | 🌐 C++ | 📅 2024-01-28 - A shader display implementing the `wlr-layer-shell-unstable-v1` protocol that can be used to create a simple overlay for a Wayland compositor, a status bar, or a wallpaper
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [waul](https://github.com/hoppxi/waul) ⭐ 2 | 🐛 0 | 🌐 C++ | 📅 2026-02-28 - A minimalistic wallpaper daemon for Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
@@ -378,27 +378,27 @@ These are mainly for developers looking for example implementations.
 
 ## WIDGETS (BARS, PANELS, ETC.)
 
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [Eww](https://github.com/elkowar/eww) ⭐ 12,608 | 🐛 378 | 🌐 Rust | 📅 2026-07-17 - A standalone widget system that allows for implementing custom widgets in any window manager
-* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Waybar](https://github.com/Alexays/Waybar) ⭐ 11,783 | 🐛 712 | 🌐 C++ | 📅 2026-08-13 - A highly customizable bar for Sway and wlroots-based compositors
-* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [i3status-rust](https://github.com/greshake/i3status-rust) ⭐ 3,135 | 🐛 119 | 🌐 Rust | 📅 2026-08-11 - A resource-friendly and feature-rich replacement for i3status
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [Eww](https://github.com/elkowar/eww) ⭐ 12,610 | 🐛 378 | 🌐 Rust | 📅 2026-07-17 - A standalone widget system that allows for implementing custom widgets in any window manager
+* ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Waybar](https://github.com/Alexays/Waybar) ⭐ 11,793 | 🐛 711 | 🌐 C++ | 📅 2026-08-14 - A highly customizable bar for Sway and wlroots-based compositors
+* ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [i3status-rust](https://github.com/greshake/i3status-rust) ⭐ 3,133 | 🐛 121 | 🌐 Rust | 📅 2026-08-11 - A resource-friendly and feature-rich replacement for i3status
 * ![TypeScript](https://img.shields.io/badge/typescript-%233178c6.svg?style=plastic\&logo=typescript\&logoColor=%23faf9f8) [ags](https://github.com/Aylur/ags) ⭐ 3,074 | 🐛 30 | 🌐 TypeScript | 📅 2026-04-08 - A standalone library for creating GTK-based widgets
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [Ironbar](https://github.com/JakeStanger/ironbar) ⭐ 1,432 | 🐛 123 | 🌐 Rust | 📅 2026-08-10 - A customizable and feature-rich GTK bar for wlroots-based compositors
-* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [fabric](https://github.com/Fabric-Development/fabric) ⭐ 1,354 | 🐛 9 | 🌐 Python | 📅 2026-08-01 - A GTK-based desktop widget framework
+* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [fabric](https://github.com/Fabric-Development/fabric) ⭐ 1,353 | 🐛 9 | 🌐 Python | 📅 2026-08-01 - A GTK-based desktop widget framework
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wob](https://github.com/francma/wob) ⭐ 1,148 | 🐛 15 | 🌐 C | 📅 2026-05-23 - A lightweight overlay volume/backlight/progress/anything bar for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic\&logo=vala\&logoColor=fff) [Astal](https://github.com/Aylur/astal) ⭐ 973 | 🐛 90 | 🌐 Vala | 📅 2026-08-08 - A framework for creating GTK-based widgets for use with Wayland compositors
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic\&logo=vala\&logoColor=fff) [Astal](https://github.com/Aylur/astal) ⭐ 973 | 🐛 91 | 🌐 Vala | 📅 2026-08-08 - A framework for creating GTK-based widgets for use with Wayland compositors
 * ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [nwg-panel](https://github.com/nwg-piotr/nwg-panel) ⭐ 780 | 🐛 40 | 🌐 Python | 📅 2026-07-09 - A GTK 3-based panel for Wayland compositors
-* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [ignis](https://github.com/ignis-sh/ignis) ⭐ 677 | 🐛 66 | 🌐 Python | 📅 2026-08-13 - A widget system based on GTK 4 for Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
+* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [ignis](https://github.com/ignis-sh/ignis) ⭐ 677 | 🐛 66 | 🌐 Python | 📅 2026-08-14 - A widget system based on GTK 4 for Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [gBar](https://github.com/scorpion-26/gBar) ⭐ 538 | 🐛 38 | 🌐 C++ | 📅 2024-12-17 - A status bar written with GTK
-* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [SFWBar](https://github.com/LBCrion/sfwbar) ⭐ 422 | 🐛 52 | 🌐 C | 📅 2026-08-11 - A flexible taskbar application for Wayland compositors, designed with a stacking layout in mind
+* ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [SFWBar](https://github.com/LBCrion/sfwbar) ⭐ 422 | 🐛 51 | 🌐 C | 📅 2026-08-11 - A flexible taskbar application for Wayland compositors, designed with a stacking layout in mind
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [dynisland](https://github.com/cr3eperall/dynisland) ⭐ 258 | 🐛 0 | 🌐 Rust | 📅 2025-08-01 - An extensible bar for wlroots-based Wayland compositors implementing the `gtk4-layer-shell` protocol
-* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [Tsumiki](https://github.com/rubiin/Tsumiki) ⭐ 234 | 🐛 5 | 🌐 Python | 📅 2026-08-14 - A Fabric-based modular status bar for Hyprland
+* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [Tsumiki](https://github.com/rubiin/Tsumiki) ⭐ 234 | 🐛 5 | 🌐 Python | 📅 2026-08-15 - A Fabric-based modular status bar for Hyprland
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [syshud](https://github.com/System64fumo/syshud) ⭐ 210 | 🐛 2 | 🌐 C++ | 📅 2026-05-28 - A system status indicator for wlroots-based Wayland compositors, implementing the `gtk4-layer-shell` protocol
-* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [nwg-wrapper](https://github.com/nwg-piotr/nwg-wrapper) ⭐ 201 | 🐛 8 | 🌐 Python | 📅 2024-07-23 - A simple text-based wrapper that displays script or file output on the desktop of wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` and `gtk3-layer-shell` protocols
+* ![Python](https://img.shields.io/badge/python-4584b6?style=plastic\&logo=python\&logoColor=ffde57) [nwg-wrapper](https://github.com/nwg-piotr/nwg-wrapper) ⭐ 200 | 🐛 8 | 🌐 Python | 📅 2024-07-23 - A simple text-based wrapper that displays script or file output on the desktop of wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` and `gtk3-layer-shell` protocols
 * ![C](https://img.shields.io/badge/c-%23044f88.svg?style=plastic\&logo=c\&logoColor=fff) [wl\_shimeji](https://github.com/CluelessCatBurger/wl_shimeji) ⭐ 194 | 🐛 13 | 🌐 C | 📅 2026-08-13 - A widget overlay for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 * ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [way-edges](https://github.com/way-edges/way-edges) ⭐ 149 | 🐛 17 | 🌐 Rust | 📅 2026-04-25 - A lightweight application providing off-screen widgets hidden along the edges of the screen
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [sysbar](https://github.com/System64fumo/sysbar) ⭐ 96 | 🐛 0 | 🌐 C++ | 📅 2026-08-12 - A modular status bar for wlroots-based Wayland compositors, implementing the `gtk4-layer-shell` protocol
 * ![Go](https://img.shields.io/badge/go-%2300add8.svg?style=plastic\&logo=go\&logoColor=fff) [YaGoStatus](https://github.com/burik666/yagostatus) ⭐ 80 | 🐛 2 | 🌐 Go | 📅 2025-02-17 - A replacement for i3status
-* ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic\&logo=zig\&logoColor=fff) [creek](https://github.com/nmeum/creek) ⭐ 69 | 🐛 8 | 🌐 Zig | 📅 2026-07-22 - A dwm-inspired fork of levee and minimalist status bar for the river-classic compositor designed to be more malleable by allowing arbitrary text rather than built-in modules
+* ![Zig](https://img.shields.io/badge/zig-%23f7a41d.svg?style=plastic\&logo=zig\&logoColor=fff) [creek](https://github.com/nmeum/creek) ⭐ 70 | 🐛 8 | 🌐 Zig | 📅 2026-07-22 - A dwm-inspired fork of levee and minimalist status bar for the river-classic compositor designed to be more malleable by allowing arbitrary text rather than built-in modules
 * ![C++](https://img.shields.io/badge/c++-%235e97d0.svg?style=plastic\&logo=c%2B%2B\&logoColor=fff) [Wapanel](https://github.com/Firstbober/wapanel) ⭐ 64 | 🐛 6 | 🌐 C++ | 📅 2022-02-13 - A simple panel/status bar/task bar for stacking Wayland-based desktops
 * ![Vala](https://img.shields.io/badge/vala-%237b6ca3.svg?style=plastic\&logo=vala\&logoColor=fff) [Hybridbar](https://github.com/hcsubser/hybridbar) ⭐ 63 | 🐛 3 | 🌐 Vala | 📅 2024-09-20 - A top panel forked from wingpanel for Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
 * ![Dart](https://img.shields.io/badge/dart-29b6f6?style=plastic\&logo=dart\&logoColor=01579b) ![Rust](https://img.shields.io/badge/rust-%23281c1c.svg?style=plastic\&logo=rust\&logoColor=fff) [kitshell](https://github.com/bootloopmaster636/kitshell) ⭐ 32 | 🐛 2 | 🌐 Dart | 📅 2026-04-18 - A Flutter-based panel for wlroots-based Wayland compositors implementing the `wlr-layer-shell-unstable-v1` protocol
@@ -430,4 +430,4 @@ A number of window managers for Wayland are being developed using the [`river-wi
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-14._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-15._
