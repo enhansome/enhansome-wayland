@@ -213,7 +213,7 @@
             "last_commit": "2026-08-19T11:24:19Z",
             "owner": "hyprwm",
             "repo": "Hyprland",
-            "stars": 37949
+            "stars": 37951
           }
         },
         {
@@ -228,7 +228,7 @@
             "last_commit": "2026-08-19T08:32:09Z",
             "owner": "niri-wm",
             "repo": "niri",
-            "stars": 27008
+            "stars": 27010
           }
         },
         {
@@ -258,7 +258,7 @@
             "last_commit": "2026-08-19T10:12:46Z",
             "owner": "ValveSoftware",
             "repo": "gamescope",
-            "stars": 4997
+            "stars": 4998
           }
         },
         {
@@ -735,7 +735,7 @@
             "archived": false,
             "id": 1158760283,
             "language": "C",
-            "last_commit": "2026-08-17T11:03:47Z",
+            "last_commit": "2026-08-19T14:12:30Z",
             "owner": "dy-tea",
             "repo": "doors",
             "stars": 24
@@ -1050,7 +1050,7 @@
             "last_commit": "2026-07-23T23:34:24Z",
             "owner": "abenz1267",
             "repo": "walker",
-            "stars": 2986
+            "stars": 2987
           }
         },
         {
@@ -1371,7 +1371,7 @@
             "last_commit": "2026-08-17T11:44:43Z",
             "owner": "Smithay",
             "repo": "smithay",
-            "stars": 3181
+            "stars": 3182
           }
         },
         {
@@ -1383,7 +1383,7 @@
             "archived": false,
             "id": 99117626,
             "language": "C++",
-            "last_commit": "2026-08-19T12:44:44Z",
+            "last_commit": "2026-08-19T14:55:03Z",
             "owner": "canonical",
             "repo": "mir",
             "stars": 778
@@ -1662,7 +1662,7 @@
             "last_commit": "2026-08-11T16:52:53Z",
             "owner": "dunst-project",
             "repo": "dunst",
-            "stars": 5567
+            "stars": 5568
           }
         },
         {
@@ -2685,7 +2685,7 @@
             "last_commit": "2026-07-25T18:55:07Z",
             "owner": "GhostNaN",
             "repo": "mpvpaper",
-            "stars": 1571
+            "stars": 1572
           }
         },
         {
@@ -3111,7 +3111,7 @@
             "last_commit": "2026-08-13T06:22:31Z",
             "owner": "CluelessCatBurger",
             "repo": "wl_shimeji",
-            "stars": 194
+            "stars": 195
           }
         },
         {
@@ -3380,7 +3380,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T12:58:51.700Z",
+    "last_updated": "2026-08-19T15:03:28.310Z",
     "original_repository": "rcalixte/awesome-wayland",
     "original_repository_id": 737870617,
     "original_repository_sha": "c6e66345ad2328849238844a08aa296ea2fdbbb7",
