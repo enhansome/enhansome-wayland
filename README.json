@@ -63,7 +63,7 @@
             "archived": false,
             "id": 259100287,
             "language": "Rust",
-            "last_commit": "2026-08-18T09:24:23Z",
+            "last_commit": "2026-08-19T21:34:13Z",
             "owner": "max-baz",
             "repo": "wluma",
             "stars": 932
@@ -213,7 +213,7 @@
             "last_commit": "2026-08-19T11:24:19Z",
             "owner": "hyprwm",
             "repo": "Hyprland",
-            "stars": 37951
+            "stars": 37979
           }
         },
         {
@@ -228,7 +228,7 @@
             "last_commit": "2026-08-19T08:32:09Z",
             "owner": "niri-wm",
             "repo": "niri",
-            "stars": 27010
+            "stars": 27035
           }
         },
         {
@@ -243,7 +243,7 @@
             "last_commit": "2026-07-31T11:47:08Z",
             "owner": "swaywm",
             "repo": "sway",
-            "stars": 17251
+            "stars": 17253
           }
         },
         {
@@ -255,7 +255,7 @@
             "archived": false,
             "id": 217906370,
             "language": "C++",
-            "last_commit": "2026-08-19T10:12:46Z",
+            "last_commit": "2026-08-20T00:35:23Z",
             "owner": "ValveSoftware",
             "repo": "gamescope",
             "stars": 4998
@@ -270,10 +270,10 @@
             "archived": false,
             "id": 926616051,
             "language": "C",
-            "last_commit": "2026-08-18T15:54:17Z",
+            "last_commit": "2026-08-20T07:16:44Z",
             "owner": "mangowm",
             "repo": "mango",
-            "stars": 3484
+            "stars": 3485
           }
         },
         {
@@ -288,7 +288,7 @@
             "last_commit": "2026-08-11T23:07:34Z",
             "owner": "WayfireWM",
             "repo": "wayfire",
-            "stars": 3032
+            "stars": 3034
           }
         },
         {
@@ -303,7 +303,7 @@
             "last_commit": "2026-08-14T18:38:22Z",
             "owner": "labwc",
             "repo": "labwc",
-            "stars": 2738
+            "stars": 2740
           }
         },
         {
@@ -333,7 +333,7 @@
             "last_commit": "2026-08-18T08:01:02Z",
             "owner": "cage-kiosk",
             "repo": "cage",
-            "stars": 2013
+            "stars": 2015
           }
         },
         {
@@ -360,7 +360,7 @@
             "archived": false,
             "id": 438790077,
             "language": "Rust",
-            "last_commit": "2026-08-19T10:40:18Z",
+            "last_commit": "2026-08-20T14:52:50Z",
             "owner": "pop-os",
             "repo": "cosmic-comp",
             "stars": 816
@@ -405,7 +405,7 @@
             "archived": false,
             "id": 443783024,
             "language": "Rust",
-            "last_commit": "2026-08-18T19:53:04Z",
+            "last_commit": "2026-08-19T19:26:15Z",
             "owner": "mahkoh",
             "repo": "jay",
             "stars": 699
@@ -435,10 +435,10 @@
             "archived": false,
             "id": 969940442,
             "language": "C",
-            "last_commit": "2026-08-18T16:58:49Z",
+            "last_commit": "2026-08-20T11:02:44Z",
             "owner": "dawsers",
             "repo": "scroll",
-            "stars": 581
+            "stars": 582
           }
         },
         {
@@ -615,7 +615,7 @@
             "archived": false,
             "id": 384172703,
             "language": "C++",
-            "last_commit": "2026-08-19T10:08:23Z",
+            "last_commit": "2026-08-20T13:08:51Z",
             "owner": "linuxdeepin",
             "repo": "treeland",
             "stars": 74
@@ -728,21 +728,6 @@
         },
         {
           "node_type": "item",
-          "title": "doors",
-          "description": "A Wayland compositor with floating, tiling, and scrolling layouts, inspired by bspwm",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "id": 1158760283,
-            "language": "C",
-            "last_commit": "2026-08-19T14:12:30Z",
-            "owner": "dy-tea",
-            "repo": "doors",
-            "stars": 24
-          }
-        },
-        {
-          "node_type": "item",
           "title": "Woodland",
           "description": "A minimal and lightweight wlroots-based stacking compositor, inspired by Wayfire and TinyWL",
           "children": [],
@@ -753,6 +738,21 @@
             "last_commit": "2026-06-12T07:26:22Z",
             "owner": "DiogenesN",
             "repo": "woodland",
+            "stars": 25
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "doors",
+          "description": "A Wayland compositor with floating, tiling, and scrolling layouts, inspired by bspwm",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1158760283,
+            "language": "C",
+            "last_commit": "2026-08-19T14:12:30Z",
+            "owner": "dy-tea",
+            "repo": "doors",
             "stars": 24
           }
         },
@@ -783,7 +783,7 @@
             "last_commit": "2026-08-09T21:11:17Z",
             "owner": "vodkanull",
             "repo": "pudu",
-            "stars": 21
+            "stars": 22
           }
         },
         {
@@ -813,7 +813,7 @@
             "last_commit": "2026-03-04T00:22:04Z",
             "owner": "ecliptik",
             "repo": "fluxland",
-            "stars": 13
+            "stars": 14
           }
         },
         {
@@ -908,6 +908,21 @@
         },
         {
           "node_type": "item",
+          "title": "stagen",
+          "description": "An experimental wlroots-based Wayland compositor",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 743780370,
+            "language": "C",
+            "last_commit": "2024-01-24T10:29:01Z",
+            "owner": "lidgnulinux",
+            "repo": "stagen",
+            "stars": 5
+          }
+        },
+        {
+          "node_type": "item",
           "title": "tiley",
           "description": "A customizable tiling Wayland compositor based on Louvre",
           "children": [],
@@ -919,21 +934,6 @@
             "owner": "creamIcec",
             "repo": "tiley",
             "stars": 5
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "stagen",
-          "description": "An experimental wlroots-based Wayland compositor",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "id": 743780370,
-            "language": "C",
-            "last_commit": "2024-01-24T10:29:01Z",
-            "owner": "lidgnulinux",
-            "repo": "stagen",
-            "stars": 4
           }
         },
         {
@@ -969,7 +969,7 @@
             "last_commit": "2026-06-01T12:12:00Z",
             "owner": "nwg-piotr",
             "repo": "nwg-displays",
-            "stars": 1080
+            "stars": 1081
           }
         },
         {
@@ -984,7 +984,7 @@
             "last_commit": "2026-06-04T20:47:47Z",
             "owner": "xyproto",
             "repo": "wallutils",
-            "stars": 522
+            "stars": 521
           }
         },
         {
@@ -999,7 +999,7 @@
             "last_commit": "2025-07-25T11:45:17Z",
             "owner": "artizirk",
             "repo": "wdisplays",
-            "stars": 282
+            "stars": 284
           }
         },
         {
@@ -1050,7 +1050,7 @@
             "last_commit": "2026-07-23T23:34:24Z",
             "owner": "abenz1267",
             "repo": "walker",
-            "stars": 2987
+            "stars": 2989
           }
         },
         {
@@ -1065,7 +1065,7 @@
             "last_commit": "2025-08-29T08:06:03Z",
             "owner": "Cloudef",
             "repo": "bemenu",
-            "stars": 1484
+            "stars": 1485
           }
         },
         {
@@ -1095,7 +1095,7 @@
             "last_commit": "2026-08-14T08:13:07Z",
             "owner": "anyrun-org",
             "repo": "anyrun",
-            "stars": 1291
+            "stars": 1292
           }
         },
         {
@@ -1110,7 +1110,7 @@
             "last_commit": "2026-06-25T16:35:43Z",
             "owner": "m31-galaxy",
             "repo": "Hexecute",
-            "stars": 691
+            "stars": 693
           }
         },
         {
@@ -1305,7 +1305,7 @@
             "last_commit": "2026-03-25T07:44:15Z",
             "owner": "hoppxi",
             "repo": "lawnch",
-            "stars": 13
+            "stars": 12
           }
         },
         {
@@ -1383,7 +1383,7 @@
             "archived": false,
             "id": 99117626,
             "language": "C++",
-            "last_commit": "2026-08-19T14:55:03Z",
+            "last_commit": "2026-08-20T14:23:45Z",
             "owner": "canonical",
             "repo": "mir",
             "stars": 778
@@ -1533,7 +1533,7 @@
             "archived": false,
             "id": 775291285,
             "language": "C",
-            "last_commit": "2026-08-19T05:08:49Z",
+            "last_commit": "2026-08-20T05:46:11Z",
             "owner": "aspschn",
             "repo": "swingby",
             "stars": 46
@@ -1593,7 +1593,7 @@
             "archived": false,
             "id": 811246285,
             "language": "C",
-            "last_commit": "2026-08-19T04:22:07Z",
+            "last_commit": "2026-08-19T21:54:12Z",
             "owner": "Fabric-Development",
             "repo": "glace",
             "stars": 9
@@ -1677,7 +1677,7 @@
             "last_commit": "2026-06-30T17:52:58Z",
             "owner": "emersion",
             "repo": "mako",
-            "stars": 3227
+            "stars": 3228
           }
         },
         {
@@ -1707,7 +1707,7 @@
             "last_commit": "2026-06-22T20:40:01Z",
             "owner": "ErikReider",
             "repo": "SwayOSD",
-            "stars": 1293
+            "stars": 1291
           }
         },
         {
@@ -1758,7 +1758,7 @@
             "last_commit": "2026-07-24T21:16:31Z",
             "owner": "jjsullivan5196",
             "repo": "wvkbd",
-            "stars": 454
+            "stars": 455
           }
         },
         {
@@ -1773,7 +1773,7 @@
             "last_commit": "2026-02-16T13:06:36Z",
             "owner": "ptazithos",
             "repo": "wkeys",
-            "stars": 42
+            "stars": 43
           }
         },
         {
@@ -1935,7 +1935,7 @@
             "last_commit": "2026-02-04T19:16:23Z",
             "owner": "jovanlanik",
             "repo": "gtklock",
-            "stars": 492
+            "stars": 493
           }
         },
         {
@@ -2031,7 +2031,7 @@
             "last_commit": "2026-04-12T06:03:50Z",
             "owner": "ammen99",
             "repo": "wf-recorder",
-            "stars": 1303
+            "stars": 1304
           }
         },
         {
@@ -2112,7 +2112,7 @@
             "last_commit": "2026-08-18T01:23:43Z",
             "owner": "Satty-org",
             "repo": "Satty",
-            "stars": 2327
+            "stars": 2328
           }
         },
         {
@@ -2283,7 +2283,7 @@
             "last_commit": "2024-07-04T04:04:20Z",
             "owner": "ArtsyMacaw",
             "repo": "wlogout",
-            "stars": 1046
+            "stars": 1049
           }
         },
         {
@@ -2298,7 +2298,7 @@
             "last_commit": "2026-07-25T05:33:48Z",
             "owner": "AMNatty",
             "repo": "wleave",
-            "stars": 339
+            "stars": 340
           }
         },
         {
@@ -2313,7 +2313,7 @@
             "last_commit": "2025-11-27T23:27:13Z",
             "owner": "ErikReider",
             "repo": "SwayAudioIdleInhibit",
-            "stars": 260
+            "stars": 259
           }
         },
         {
@@ -2349,7 +2349,7 @@
             "last_commit": "2026-06-28T14:49:45Z",
             "owner": "feschber",
             "repo": "lan-mouse",
-            "stars": 5139
+            "stars": 5143
           }
         },
         {
@@ -2379,7 +2379,7 @@
             "last_commit": "2026-08-01T15:49:54Z",
             "owner": "any1",
             "repo": "wayvnc",
-            "stars": 1796
+            "stars": 1797
           }
         },
         {
@@ -2391,10 +2391,10 @@
             "archived": false,
             "id": 531992847,
             "language": "C++",
-            "last_commit": "2026-08-19T11:24:10Z",
+            "last_commit": "2026-08-20T11:57:50Z",
             "owner": "hyprwm",
             "repo": "hyprpicker",
-            "stars": 1122
+            "stars": 1123
           }
         },
         {
@@ -2409,7 +2409,7 @@
             "last_commit": "2026-06-01T22:32:36Z",
             "owner": "moverest",
             "repo": "wl-kbptr",
-            "stars": 727
+            "stars": 733
           }
         },
         {
@@ -2439,7 +2439,7 @@
             "last_commit": "2024-07-05T18:12:38Z",
             "owner": "r-c-f",
             "repo": "waynergy",
-            "stars": 454
+            "stars": 456
           }
         },
         {
@@ -2454,7 +2454,7 @@
             "last_commit": "2025-11-21T10:36:08Z",
             "owner": "MaxVerevkin",
             "repo": "wlr-which-key",
-            "stars": 376
+            "stars": 377
           }
         },
         {
@@ -2469,7 +2469,7 @@
             "last_commit": "2026-08-16T04:00:15Z",
             "owner": "wlrfx",
             "repo": "scenefx",
-            "stars": 228
+            "stars": 229
           }
         },
         {
@@ -2685,7 +2685,7 @@
             "last_commit": "2026-07-25T18:55:07Z",
             "owner": "GhostNaN",
             "repo": "mpvpaper",
-            "stars": 1572
+            "stars": 1574
           }
         },
         {
@@ -2745,7 +2745,7 @@
             "last_commit": "2026-08-10T09:59:42Z",
             "owner": "danyspin97",
             "repo": "wpaperd",
-            "stars": 603
+            "stars": 604
           }
         },
         {
@@ -2760,7 +2760,7 @@
             "last_commit": "2026-06-04T20:47:47Z",
             "owner": "xyproto",
             "repo": "wallutils",
-            "stars": 522
+            "stars": 521
           }
         },
         {
@@ -2790,7 +2790,7 @@
             "last_commit": "2026-08-11T00:33:47Z",
             "owner": "1ay1",
             "repo": "neowall",
-            "stars": 253
+            "stars": 254
           }
         },
         {
@@ -2805,7 +2805,7 @@
             "last_commit": "2026-08-01T18:36:54Z",
             "owner": "SaverinOnRails",
             "repo": "yin",
-            "stars": 213
+            "stars": 214
           }
         },
         {
@@ -2871,7 +2871,7 @@
             "last_commit": "2026-07-17T07:29:44Z",
             "owner": "elkowar",
             "repo": "eww",
-            "stars": 12616
+            "stars": 12615
           }
         },
         {
@@ -2883,10 +2883,10 @@
             "archived": false,
             "id": 144071425,
             "language": "C++",
-            "last_commit": "2026-08-14T21:34:07Z",
+            "last_commit": "2026-08-20T11:41:51Z",
             "owner": "Alexays",
             "repo": "Waybar",
-            "stars": 11819
+            "stars": 11820
           }
         },
         {
@@ -2916,7 +2916,7 @@
             "last_commit": "2026-04-08T23:04:21Z",
             "owner": "Aylur",
             "repo": "ags",
-            "stars": 3077
+            "stars": 3078
           }
         },
         {
@@ -2931,7 +2931,7 @@
             "last_commit": "2026-08-19T10:02:06Z",
             "owner": "JakeStanger",
             "repo": "ironbar",
-            "stars": 1436
+            "stars": 1439
           }
         },
         {
@@ -2991,7 +2991,7 @@
             "last_commit": "2026-07-09T18:02:21Z",
             "owner": "nwg-piotr",
             "repo": "nwg-panel",
-            "stars": 779
+            "stars": 780
           }
         },
         {
@@ -3006,7 +3006,7 @@
             "last_commit": "2026-08-18T16:38:49Z",
             "owner": "ignis-sh",
             "repo": "ignis",
-            "stars": 678
+            "stars": 679
           }
         },
         {
@@ -3036,7 +3036,7 @@
             "last_commit": "2026-08-11T17:33:40Z",
             "owner": "LBCrion",
             "repo": "sfwbar",
-            "stars": 422
+            "stars": 423
           }
         },
         {
@@ -3111,7 +3111,7 @@
             "last_commit": "2026-08-13T06:22:31Z",
             "owner": "CluelessCatBurger",
             "repo": "wl_shimeji",
-            "stars": 195
+            "stars": 196
           }
         },
         {
@@ -3156,7 +3156,7 @@
             "last_commit": "2025-02-17T20:14:53Z",
             "owner": "burik666",
             "repo": "yagostatus",
-            "stars": 80
+            "stars": 81
           }
         },
         {
@@ -3380,7 +3380,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T15:03:28.310Z",
+    "last_updated": "2026-08-20T15:06:52.176Z",
     "original_repository": "rcalixte/awesome-wayland",
     "original_repository_id": 737870617,
     "original_repository_sha": "c6e66345ad2328849238844a08aa296ea2fdbbb7",
