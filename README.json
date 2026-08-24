@@ -228,7 +228,7 @@
             "last_commit": "2026-08-21T18:51:41Z",
             "owner": "niri-wm",
             "repo": "niri",
-            "stars": 27132
+            "stars": 27134
           }
         },
         {
@@ -243,7 +243,7 @@
             "last_commit": "2026-07-31T11:47:08Z",
             "owner": "swaywm",
             "repo": "sway",
-            "stars": 17264
+            "stars": 17265
           }
         },
         {
@@ -258,7 +258,7 @@
             "last_commit": "2026-08-24T14:09:45Z",
             "owner": "ValveSoftware",
             "repo": "gamescope",
-            "stars": 5013
+            "stars": 5014
           }
         },
         {
@@ -969,7 +969,7 @@
             "last_commit": "2026-06-01T12:12:00Z",
             "owner": "nwg-piotr",
             "repo": "nwg-displays",
-            "stars": 1084
+            "stars": 1083
           }
         },
         {
@@ -1425,7 +1425,7 @@
             "archived": false,
             "id": 99117626,
             "language": "C++",
-            "last_commit": "2026-08-24T13:10:06Z",
+            "last_commit": "2026-08-24T14:56:42Z",
             "owner": "canonical",
             "repo": "mir",
             "stars": 778
@@ -1719,7 +1719,7 @@
             "last_commit": "2026-06-30T17:52:58Z",
             "owner": "emersion",
             "repo": "mako",
-            "stars": 3229
+            "stars": 3230
           }
         },
         {
@@ -2742,7 +2742,7 @@
             "last_commit": "2026-08-13T18:14:10Z",
             "owner": "hyprwm",
             "repo": "hyprpaper",
-            "stars": 1348
+            "stars": 1347
           }
         },
         {
@@ -3422,7 +3422,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T14:15:38.613Z",
+    "last_updated": "2026-08-24T15:11:47.037Z",
     "original_repository": "rcalixte/awesome-wayland",
     "original_repository_id": 737870617,
     "original_repository_sha": "ea8424bc2d8020910aac4f425ba3e9240e1c86aa",
