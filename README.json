@@ -109,8 +109,8 @@
             "id": 259100287,
             "language": "Rust",
             "license": "ISC",
-            "last_commit": "2026-09-10T20:21:26Z",
-            "open_issues": 1,
+            "last_commit": "2026-09-17T20:46:51Z",
+            "open_issues": 0,
             "owner": "max-baz",
             "repo": "wluma",
             "stars": 948,
@@ -297,7 +297,7 @@
             "open_issues": 8,
             "owner": "sentriz",
             "repo": "cliphist",
-            "stars": 1547,
+            "stars": 1548,
             "topics": [
               "clipboard",
               "clipboard-manager",
@@ -380,10 +380,10 @@
             "language": "C++",
             "license": "BSD-3-Clause",
             "last_commit": "2026-09-17T13:50:23Z",
-            "open_issues": 194,
+            "open_issues": 195,
             "owner": "hyprwm",
             "repo": "Hyprland",
-            "stars": 38589,
+            "stars": 38594,
             "topics": [
               "compositor",
               "cpp26",
@@ -405,11 +405,11 @@
             "id": 676934005,
             "language": "Rust",
             "license": "GPL-3.0",
-            "last_commit": "2026-09-17T14:51:39Z",
+            "last_commit": "2026-09-18T08:26:19Z",
             "open_issues": 485,
             "owner": "niri-wm",
             "repo": "niri",
-            "stars": 27806,
+            "stars": 27819,
             "topics": [
               "rust",
               "smithay",
@@ -436,7 +436,7 @@
             "open_issues": 1387,
             "owner": "swaywm",
             "repo": "sway",
-            "stars": 17333,
+            "stars": 17334,
             "topics": [
               "compositor",
               "wayland"
@@ -457,10 +457,10 @@
             "language": "C++",
             "license": "NOASSERTION",
             "last_commit": "2026-09-17T18:20:32Z",
-            "open_issues": 959,
+            "open_issues": 960,
             "owner": "ValveSoftware",
             "repo": "gamescope",
-            "stars": 5092,
+            "stars": 5093,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -477,11 +477,11 @@
             "id": 926616051,
             "language": "C",
             "license": "NOASSERTION",
-            "last_commit": "2026-09-17T14:50:44Z",
-            "open_issues": 217,
+            "last_commit": "2026-09-18T12:12:11Z",
+            "open_issues": 219,
             "owner": "mangowm",
             "repo": "mango",
-            "stars": 3643,
+            "stars": 3652,
             "topics": [
               "compositor",
               "wayland",
@@ -504,10 +504,10 @@
             "language": "C++",
             "license": "MIT",
             "last_commit": "2026-09-17T08:22:45Z",
-            "open_issues": 124,
+            "open_issues": 126,
             "owner": "WayfireWM",
             "repo": "wayfire",
-            "stars": 3048,
+            "stars": 3049,
             "topics": [
               "wayfire",
               "wayland",
@@ -533,7 +533,7 @@
             "open_issues": 294,
             "owner": "labwc",
             "repo": "labwc",
-            "stars": 2798,
+            "stars": 2800,
             "topics": [
               "labwc",
               "layer-shell",
@@ -563,7 +563,7 @@
             "open_issues": 171,
             "owner": "wlrfx",
             "repo": "swayfx",
-            "stars": 2378,
+            "stars": 2381,
             "topics": [
               "c",
               "compositor",
@@ -594,7 +594,7 @@
             "open_issues": 124,
             "owner": "cage-kiosk",
             "repo": "cage",
-            "stars": 2062,
+            "stars": 2063,
             "topics": [
               "compositor",
               "kiosk",
@@ -619,7 +619,7 @@
             "open_issues": 23,
             "owner": "udevbe",
             "repo": "greenfield",
-            "stars": 1272,
+            "stars": 1271,
             "topics": [
               "browser",
               "browser-wayland-compositor",
@@ -645,10 +645,10 @@
             "language": "Rust",
             "license": "GPL-3.0",
             "last_commit": "2026-09-16T17:04:07Z",
-            "open_issues": 999,
+            "open_issues": 1001,
             "owner": "pop-os",
             "repo": "cosmic-comp",
-            "stars": 829,
+            "stars": 828,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -665,11 +665,11 @@
             "id": 603488277,
             "language": "C++",
             "license": "GPL-3.0",
-            "last_commit": "2026-09-16T21:59:26Z",
-            "open_issues": 42,
+            "last_commit": "2026-09-18T13:34:05Z",
+            "open_issues": 43,
             "owner": "miracle-wm-org",
             "repo": "miracle-wm",
-            "stars": 805,
+            "stars": 808,
             "topics": [
               "hackable",
               "linux",
@@ -720,8 +720,8 @@
             "id": 443783024,
             "language": "Rust",
             "license": "GPL-3.0",
-            "last_commit": "2026-09-17T14:02:15Z",
-            "open_issues": 105,
+            "last_commit": "2026-09-18T17:47:09Z",
+            "open_issues": 104,
             "owner": "mahkoh",
             "repo": "jay",
             "stars": 706,
@@ -772,11 +772,11 @@
             "id": 969940442,
             "language": "C",
             "license": "MIT",
-            "last_commit": "2026-09-15T15:45:33Z",
+            "last_commit": "2026-09-18T11:01:20Z",
             "open_issues": 7,
             "owner": "dawsers",
             "repo": "scroll",
-            "stars": 606,
+            "stars": 607,
             "topics": [
               "scrolling",
               "wayland-compositor"
@@ -800,7 +800,7 @@
             "open_issues": 12,
             "owner": "wizbright",
             "repo": "waybox",
-            "stars": 533,
+            "stars": 532,
             "topics": [
               "c",
               "openbox",
@@ -822,7 +822,7 @@
             "id": 656325315,
             "language": "C",
             "license": "Apache-2.0",
-            "last_commit": "2026-09-13T17:56:41Z",
+            "last_commit": "2026-09-18T15:06:19Z",
             "open_issues": 21,
             "owner": "phkaeser",
             "repo": "wlmaker",
@@ -869,8 +869,8 @@
             "id": 148831489,
             "language": "Common Lisp",
             "license": "GPL-2.0",
-            "last_commit": "2026-09-17T18:23:53Z",
-            "open_issues": 62,
+            "last_commit": "2026-09-18T05:42:53Z",
+            "open_issues": 61,
             "owner": "stumpwm",
             "repo": "mahogany",
             "stars": 387,
@@ -948,7 +948,7 @@
             "open_issues": 35,
             "owner": "lirios",
             "repo": "shell",
-            "stars": 248,
+            "stars": 247,
             "topics": [
               "compositor",
               "convergence",
@@ -999,11 +999,11 @@
             "id": 906184863,
             "language": "C",
             "license": "NOASSERTION",
-            "last_commit": "2026-09-17T01:30:01Z",
-            "open_issues": 13,
+            "last_commit": "2026-09-18T12:22:02Z",
+            "open_issues": 11,
             "owner": "Cudiph",
             "repo": "cwcwm",
-            "stars": 187,
+            "stars": 186,
             "topics": [
               "lua",
               "wayland",
@@ -1076,11 +1076,11 @@
             "id": 384172703,
             "language": "C++",
             "license": null,
-            "last_commit": "2026-09-17T02:08:20Z",
-            "open_issues": 103,
+            "last_commit": "2026-09-18T02:18:46Z",
+            "open_issues": 105,
             "owner": "linuxdeepin",
             "repo": "treeland",
-            "stars": 78,
+            "stars": 77,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -1234,27 +1234,6 @@
         },
         {
           "node_type": "item",
-          "title": "Woodland",
-          "description": "A minimal and lightweight wlroots-based stacking compositor, inspired by Wayfire and TinyWL",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Woodland is a minimal Wayland compositor based on wlroots and inspired by Wayfire and TinyWl.",
-            "homepage": null,
-            "id": 815660603,
-            "language": "C",
-            "license": "GPL-2.0",
-            "last_commit": "2026-06-12T07:26:22Z",
-            "open_issues": 0,
-            "owner": "DiogenesN",
-            "repo": "woodland",
-            "stars": 29,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T23:38:51.628Z"
-        },
-        {
-          "node_type": "item",
           "title": "doors",
           "description": "A Wayland compositor with floating, tiling, and scrolling layouts, inspired by bspwm",
           "children": [],
@@ -1276,6 +1255,27 @@
               "wayland-compositor",
               "wlroots"
             ]
+          },
+          "first_seen": "2026-08-28T23:38:51.628Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Woodland",
+          "description": "A minimal and lightweight wlroots-based stacking compositor, inspired by Wayfire and TinyWL",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Woodland is a minimal Wayland compositor based on wlroots and inspired by Wayfire and TinyWl.",
+            "homepage": null,
+            "id": 815660603,
+            "language": "C",
+            "license": "GPL-2.0",
+            "last_commit": "2026-06-12T07:26:22Z",
+            "open_issues": 0,
+            "owner": "DiogenesN",
+            "repo": "woodland",
+            "stars": 28,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
         },
@@ -1703,7 +1703,7 @@
             "language": "Python",
             "license": "MIT",
             "last_commit": "2026-08-24T19:52:27Z",
-            "open_issues": 41,
+            "open_issues": 42,
             "owner": "nwg-piotr",
             "repo": "nwg-displays",
             "stars": 1100,
@@ -1734,7 +1734,7 @@
             "open_issues": 8,
             "owner": "xyproto",
             "repo": "wallutils",
-            "stars": 523,
+            "stars": 522,
             "topics": [
               "freebsd",
               "getdpi",
@@ -1856,7 +1856,7 @@
             "open_issues": 947,
             "owner": "waydroid",
             "repo": "waydroid",
-            "stars": 12210,
+            "stars": 12221,
             "topics": [
               "android",
               "linux"
@@ -1913,7 +1913,7 @@
             "open_issues": 24,
             "owner": "abenz1267",
             "repo": "walker",
-            "stars": 3045,
+            "stars": 3047,
             "topics": [
               "runner",
               "rust",
@@ -1959,7 +1959,7 @@
             "open_issues": 117,
             "owner": "philj56",
             "repo": "tofi",
-            "stars": 1403,
+            "stars": 1402,
             "topics": [
               "application-launcher",
               "c",
@@ -1990,7 +1990,7 @@
             "open_issues": 73,
             "owner": "anyrun-org",
             "repo": "anyrun",
-            "stars": 1307,
+            "stars": 1309,
             "topics": [
               "gtk",
               "launcher",
@@ -2153,7 +2153,7 @@
             "open_issues": 31,
             "owner": "nwg-piotr",
             "repo": "nwg-drawer",
-            "stars": 425,
+            "stars": 424,
             "topics": [
               "hyprland",
               "sway"
@@ -2441,10 +2441,10 @@
             "language": "Rust",
             "license": "MIT",
             "last_commit": "2026-09-15T23:14:20Z",
-            "open_issues": 269,
+            "open_issues": 271,
             "owner": "Smithay",
             "repo": "smithay",
-            "stars": 3255,
+            "stars": 3256,
             "topics": [
               "rust",
               "wayland",
@@ -2460,13 +2460,13 @@
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": "C++ libraries for writing Wayland Shells",
-            "homepage": "https://canonical.com/mir",
+            "description": "The Mir compositor",
+            "homepage": "https://mir-server.io/",
             "id": 99117626,
             "language": "C++",
             "license": "GPL-2.0",
-            "last_commit": "2026-09-17T18:16:21Z",
-            "open_issues": 415,
+            "last_commit": "2026-09-18T17:46:32Z",
+            "open_issues": 413,
             "owner": "canonical",
             "repo": "mir",
             "stars": 787,
@@ -2496,7 +2496,7 @@
             "open_issues": 23,
             "owner": "michaelforney",
             "repo": "swc",
-            "stars": 758,
+            "stars": 757,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -2517,7 +2517,7 @@
             "open_issues": 8,
             "owner": "CuarzoSoftware",
             "repo": "Louvre",
-            "stars": 687,
+            "stars": 686,
             "topics": [
               "compositor",
               "cpp",
@@ -2545,7 +2545,7 @@
             "open_issues": 73,
             "owner": "Smithay",
             "repo": "client-toolkit",
-            "stars": 438,
+            "stars": 439,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -2566,7 +2566,7 @@
             "open_issues": 8,
             "owner": "wmww",
             "repo": "gtk-layer-shell",
-            "stars": 386,
+            "stars": 385,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -2587,7 +2587,7 @@
             "open_issues": 5,
             "owner": "wmww",
             "repo": "gtk4-layer-shell",
-            "stars": 335,
+            "stars": 334,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -2905,7 +2905,7 @@
             "open_issues": 124,
             "owner": "dunst-project",
             "repo": "dunst",
-            "stars": 5591,
+            "stars": 5592,
             "topics": [
               "c",
               "dbus",
@@ -2933,7 +2933,7 @@
             "open_issues": 135,
             "owner": "emersion",
             "repo": "mako",
-            "stars": 3260,
+            "stars": 3259,
             "topics": [
               "cli",
               "notifications",
@@ -2959,7 +2959,7 @@
             "open_issues": 115,
             "owner": "ErikReider",
             "repo": "SwayNotificationCenter",
-            "stars": 2582,
+            "stars": 2584,
             "topics": [
               "adwaita",
               "gtk",
@@ -2992,7 +2992,7 @@
             "language": "Rust",
             "license": "GPL-3.0",
             "last_commit": "2026-06-22T20:40:01Z",
-            "open_issues": 33,
+            "open_issues": 34,
             "owner": "ErikReider",
             "repo": "SwayOSD",
             "stars": 1306,
@@ -3083,7 +3083,7 @@
             "open_issues": 30,
             "owner": "jjsullivan5196",
             "repo": "wvkbd",
-            "stars": 470,
+            "stars": 471,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -3238,7 +3238,7 @@
             "open_issues": 196,
             "owner": "hyprwm",
             "repo": "hyprlock",
-            "stars": 1655,
+            "stars": 1656,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -3483,7 +3483,7 @@
             "id": 344407228,
             "language": "Rust",
             "license": "GPL-3.0",
-            "last_commit": "2026-09-16T18:51:40Z",
+            "last_commit": "2026-09-18T11:51:33Z",
             "open_issues": 100,
             "owner": "SeaDve",
             "repo": "Kooha",
@@ -3519,7 +3519,7 @@
             "open_issues": 57,
             "owner": "ammen99",
             "repo": "wf-recorder",
-            "stars": 1309,
+            "stars": 1307,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -3536,11 +3536,11 @@
             "id": 589056864,
             "language": "Rust",
             "license": "Apache-2.0",
-            "last_commit": "2026-08-10T15:14:16Z",
-            "open_issues": 30,
+            "last_commit": "2026-09-18T16:20:56Z",
+            "open_issues": 29,
             "owner": "rosalyntg",
             "repo": "wl-screenrec",
-            "stars": 629,
+            "stars": 627,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -3561,7 +3561,7 @@
             "open_issues": 20,
             "owner": "Ferdi265",
             "repo": "wl-mirror",
-            "stars": 528,
+            "stars": 529,
             "topics": [
               "c",
               "cmake",
@@ -3638,11 +3638,11 @@
             "id": 694624830,
             "language": "Rust",
             "license": "MPL-2.0",
-            "last_commit": "2026-09-15T01:23:30Z",
-            "open_issues": 74,
+            "last_commit": "2026-09-18T17:42:11Z",
+            "open_issues": 72,
             "owner": "Satty-org",
             "repo": "Satty",
-            "stars": 2402,
+            "stars": 2403,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -3753,7 +3753,7 @@
           "description": "A screenshot utility for wlroots-based Wayland compositors implementing the and protocols",
           "children": [],
           "repo_info": {
-            "archived": false,
+            "archived": true,
             "description": "wlr screenshot",
             "homepage": null,
             "id": 572562961,
@@ -3945,7 +3945,7 @@
             "open_issues": 8,
             "owner": "AMNatty",
             "repo": "wleave",
-            "stars": 347,
+            "stars": 346,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -3987,7 +3987,7 @@
             "open_issues": 6,
             "owner": "nwg-piotr",
             "repo": "nwg-bar",
-            "stars": 178,
+            "stars": 177,
             "topics": [
               "gtk",
               "gtk3",
@@ -4021,7 +4021,7 @@
             "open_issues": 141,
             "owner": "feschber",
             "repo": "lan-mouse",
-            "stars": 5288,
+            "stars": 5293,
             "topics": [
               "gplv3",
               "gtk4-rs",
@@ -4061,7 +4061,7 @@
             "open_issues": 96,
             "owner": "ReimuNotMoe",
             "repo": "ydotool",
-            "stars": 2354,
+            "stars": 2355,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -4078,11 +4078,11 @@
             "id": 213255828,
             "language": "C",
             "license": "ISC",
-            "last_commit": "2026-09-08T08:22:27Z",
+            "last_commit": "2026-09-17T21:34:18Z",
             "open_issues": 47,
             "owner": "any1",
             "repo": "wayvnc",
-            "stars": 1816,
+            "stars": 1817,
             "topics": [
               "remote-desktop",
               "sway",
@@ -4106,7 +4106,7 @@
             "language": "C++",
             "license": "BSD-3-Clause",
             "last_commit": "2026-09-01T13:47:03Z",
-            "open_issues": 25,
+            "open_issues": 26,
             "owner": "hyprwm",
             "repo": "hyprpicker",
             "stars": 1136,
@@ -4159,7 +4159,7 @@
             "open_issues": 39,
             "owner": "moverest",
             "repo": "wl-kbptr",
-            "stars": 755,
+            "stars": 757,
             "topics": [
               "hyprland",
               "mouse-pointer-control",
@@ -4207,7 +4207,7 @@
             "open_issues": 35,
             "owner": "r-c-f",
             "repo": "waynergy",
-            "stars": 453,
+            "stars": 454,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -4228,7 +4228,7 @@
             "open_issues": 19,
             "owner": "MaxVerevkin",
             "repo": "wlr-which-key",
-            "stars": 387,
+            "stars": 388,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -4246,7 +4246,7 @@
             "language": "C",
             "license": "MIT",
             "last_commit": "2026-09-17T17:07:45Z",
-            "open_issues": 48,
+            "open_issues": 49,
             "owner": "wlrfx",
             "repo": "scenefx",
             "stars": 247,
@@ -4349,7 +4349,7 @@
             "id": 109362682,
             "language": "C++",
             "license": "GPL-2.0",
-            "last_commit": "2026-09-17T06:59:01Z",
+            "last_commit": "2026-09-18T10:26:35Z",
             "open_issues": 32,
             "owner": "canonical",
             "repo": "wlcs",
@@ -4629,7 +4629,7 @@
             "open_issues": 17,
             "owner": "GhostNaN",
             "repo": "mpvpaper",
-            "stars": 1614,
+            "stars": 1616,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -4650,7 +4650,7 @@
             "open_issues": 51,
             "owner": "hyprwm",
             "repo": "hyprpaper",
-            "stars": 1354,
+            "stars": 1353,
             "topics": [
               "cpp20",
               "wallpaper",
@@ -4676,7 +4676,7 @@
             "open_issues": 15,
             "owner": "anufrievroman",
             "repo": "waypaper",
-            "stars": 1064,
+            "stars": 1065,
             "topics": [
               "feh",
               "gtk3",
@@ -4737,7 +4737,7 @@
             "open_issues": 35,
             "owner": "danyspin97",
             "repo": "wpaperd",
-            "stars": 613,
+            "stars": 612,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -4758,7 +4758,7 @@
             "open_issues": 8,
             "owner": "xyproto",
             "repo": "wallutils",
-            "stars": 523,
+            "stars": 522,
             "topics": [
               "freebsd",
               "getdpi",
@@ -4835,7 +4835,7 @@
             "open_issues": 0,
             "owner": "1ay1",
             "repo": "neowall",
-            "stars": 263,
+            "stars": 264,
             "topics": [
               "background",
               "c",
@@ -4985,7 +4985,7 @@
             "open_issues": 379,
             "owner": "elkowar",
             "repo": "eww",
-            "stars": 12676,
+            "stars": 12674,
             "topics": [
               "desktop",
               "eww",
@@ -5015,10 +5015,10 @@
             "language": "C++",
             "license": "MIT",
             "last_commit": "2026-09-17T06:52:53Z",
-            "open_issues": 743,
+            "open_issues": 747,
             "owner": "Alexays",
             "repo": "Waybar",
-            "stars": 11968,
+            "stars": 11972,
             "topics": [
               "bar",
               "gtk",
@@ -5068,7 +5068,7 @@
             "open_issues": 31,
             "owner": "Aylur",
             "repo": "ags",
-            "stars": 3098,
+            "stars": 3101,
             "topics": [
               "gtk3",
               "gtk4",
@@ -5096,7 +5096,7 @@
             "open_issues": 124,
             "owner": "JakeStanger",
             "repo": "ironbar",
-            "stars": 1466,
+            "stars": 1465,
             "topics": [
               "bar",
               "desktop",
@@ -5211,7 +5211,7 @@
             "open_issues": 40,
             "owner": "nwg-piotr",
             "repo": "nwg-panel",
-            "stars": 783,
+            "stars": 782,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -5342,7 +5342,7 @@
             "id": 889413251,
             "language": "Python",
             "license": "MIT",
-            "last_commit": "2026-09-14T21:39:54Z",
+            "last_commit": "2026-09-18T12:56:37Z",
             "open_issues": 2,
             "owner": "rubiin",
             "repo": "tsumiki",
@@ -5381,7 +5381,7 @@
             "open_issues": 2,
             "owner": "System64fumo",
             "repo": "syshud",
-            "stars": 210,
+            "stars": 212,
             "topics": [
               "brightness-indicator",
               "gtk4",
@@ -5438,7 +5438,7 @@
             "open_issues": 18,
             "owner": "CluelessCatBurger",
             "repo": "wl_shimeji",
-            "stars": 198,
+            "stars": 199,
             "topics": [
               "desktop-pet",
               "shimeji",
@@ -5880,7 +5880,7 @@
             "open_issues": 14,
             "owner": "michaelforney",
             "repo": "velox",
-            "stars": 611,
+            "stars": 612,
             "topics": []
           },
           "first_seen": "2026-08-28T23:38:51.628Z"
@@ -5911,7 +5911,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-17T18:28:45.986Z",
+    "last_updated": "2026-09-18T17:49:18.947Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of Wayland resources",
@@ -5923,7 +5923,7 @@
       "open_issues": 5,
       "owner": "rcalixte",
       "repo": "awesome-wayland",
-      "stars": 1587,
+      "stars": 1588,
       "topics": [
         "awesome",
         "awesome-list",
